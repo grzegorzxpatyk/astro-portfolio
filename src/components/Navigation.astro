@@ -1,0 +1,15 @@
+---
+import { motion } from 'framer-motion';
+import NavLinks from './NavLinks';
+
+interface Props {
+    routes: string[];
+}
+
+const { routes } = Astro.props;
+const pathname = Astro.url.pathname;
+---
+
+<nav class='flex flex-row justify-start items-center gap-2 text-2xl my-8'>
+    <NavLinks {...{ routes, pathname }} client:load transition:persist />
+</nav>
