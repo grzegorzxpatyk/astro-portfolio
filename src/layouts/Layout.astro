@@ -23,12 +23,12 @@ const { title } = Astro.props;
         <ViewTransitions />
     </head>
     <body
-        class='w-dvw h-dvh flex flex-col items-center justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100'
+        class='antialiased w-dvw h-dvh flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100'
     >
-        <div class='p-8 min-w-96 w-[50dvw]'>
+        <div class='p-8 min-w-96'>
             <Navigation routes={['', 'projects', 'resume']} />
             <main
-                class='flex flex-col justify-start w-full h-full'
+                class='flex flex-col justify-start w-full h-[calc(100%-5dvh)]'
                 transition:animate='slide'
             >
                 <slot />

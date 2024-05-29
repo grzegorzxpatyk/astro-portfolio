@@ -9,6 +9,6 @@ const { routes } = Astro.props;
 const pathname = Astro.url.pathname;
 ---
 
-<nav class='flex flex-row justify-start items-center gap-4 text-2xl my-8'>
+<nav class='flex flex-row justify-start items-start h-[5dvh] gap-4 text-2xl'>
     <NavLinks {...{ routes, pathname }} client:load transition:persist />
 </nav>
