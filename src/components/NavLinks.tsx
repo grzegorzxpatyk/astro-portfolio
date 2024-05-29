@@ -17,8 +17,8 @@ export default function NavLinks({
               layoutId='navlink-underline'
               transition={{
                 type: 'spring',
-                stiffness: 500,
-                damping: 30,
+                stiffness: 300,
+                damping: 15,
               }}
               className='absolute left-0 top-full block h-[2px] w-full bg-zinc-800 dark:bg-zinc-500'
             />
