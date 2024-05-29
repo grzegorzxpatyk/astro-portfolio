@@ -6,9 +6,9 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["Geist Sans", defaultTheme.fontFamily.sans],
-			}
-		},
+			  sans: ['Geist Sans', defaultTheme.fontFamily.sans],
+		  },
+	  },
 	},
-	plugins: [],
-}
+	plugins: [require('@tailwindcss/typography')],
+};
