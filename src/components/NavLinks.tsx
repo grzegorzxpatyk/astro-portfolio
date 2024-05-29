@@ -10,7 +10,7 @@ export default function NavLinks({
   return (
     <>
       {routes.map((element) => (
-        <a href={`/${element}`} className='relative'>
+        <a key={element} href={`/${element}`} className='relative'>
           {element === '' ? 'home' : element}
           {pathname === `/${element}` && (
             <motion.span
