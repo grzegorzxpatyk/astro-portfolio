@@ -5,35 +5,44 @@ import Cursor from '../components/Cursor';
 import Navigation from '../components/Navigation.astro';
 
 interface Props {
-    title: string;
+    title?: string;
 }
 
 const { title } = Astro.props;
+const pathname = Astro.url.pathname;
 ---
 
 <!doctype html>
 <html lang='en'>
     <head>
         <meta charset='UTF-8' />
-        <meta name='description' content='Astro description' />
+        <meta
+            name='description'
+            content="Greg Patyk's Web Development Portfolio"
+        />
+        <meta name='author' content='Grzegorz Patyk grzegorzxpatyk@gmail.com' />
         <meta name='viewport' content='width=device-width' />
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <meta name='generator' content={Astro.generator} />
-        <title>{title}</title>
+        <title>{`Greg Patyk - Portfolio${title ? ` | ${title}` : ''}`}</title>
         <ViewTransitions />
     </head>
     <body
-        class='antialiased w-dvw h-dvh flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100'
+        class='antialiased overflow-x-hidden overflow-y-scroll w-screen h-dvh flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100'
     >
-        <div class='p-8 min-w-96'>
-            <Navigation routes={['', 'projects', 'resume']} />
-            <main
-                class='flex flex-col justify-start w-full h-[calc(100%-5dvh)]'
-                transition:animate='slide'
-            >
-                <slot />
-            </main>
-        </div>
+        <Navigation currentPathname={pathname} />
+        <main
+            class='w-full mt-16 h-[calc(100dvh-4rem)] px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24'
+        >
+            <slot />
+        </main>
         <Cursor client:load transition:persist />
     </body>
 </html>
+
+<style is:global>
+html {
+    width: 100dvw;
+    height: 100dvh;
+}
+</style>
