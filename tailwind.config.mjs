@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import { m } from 'framer-motion';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
@@ -6,12 +7,21 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-			  sans: ['Geist Sans', defaultTheme.fontFamily.sans],
-		  },
+				sans: ['Geist Sans', defaultTheme.fontFamily.sans],
+			},
 			backgroundImage: {
-				'gradient-landing': 'linear-gradient(270deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%)'
+				'gradient-landing': 'linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'
+			},
+			animation: {
+				'bg-wave': 'bg-wave 20s linear infinite',
+			},
+			keyframes: {
+				'bg-wave': {
+					'0%, 100%': { backgroundPosition: '0 0' },
+					'50%': { backgroundPosition: '100% 100%' },
+				}
 			}
-	  },
+		},
 	},
 	plugins: [require('@tailwindcss/typography')],
 };
