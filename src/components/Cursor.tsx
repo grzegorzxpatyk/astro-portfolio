@@ -30,7 +30,7 @@ export default function Cursor() {
     }
 
     const scale = useMotionValue(1);
-    const smoothScale = useSpring(scale, springConfig);
+    const smoothScale = useSpring(scale, { damping: 20, stiffness: 200 });
 
     function handleMouseDown(event: MouseEvent) {
         scale.set(3);
@@ -40,15 +40,33 @@ export default function Cursor() {
         scale.set(1);
     }
 
+    function handleMouseEnter(event: MouseEvent) {
+        scale.set(1);
+    }
+
+    function handleMouseLeave(event: MouseEvent) {
+        scale.set(0);
+    }
+
     useEffect(() => {
         window.addEventListener('mousemove', handleMouseMove);
         window.addEventListener('mousedown', handleMouseDown);
         window.addEventListener('mouseup', handleMouseUp);
+        window.document.body.addEventListener('mouseenter', handleMouseEnter);
+        window.document.body.addEventListener('mouseleave', handleMouseLeave);
 
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
             window.removeEventListener('mousemove', handleMouseDown);
             window.removeEventListener('mousemove', handleMouseUp);
+            window.document.body.removeEventListener(
+                'mouseenter',
+                handleMouseEnter
+            );
+            window.document.body.removeEventListener(
+                'mouseleave',
+                handleMouseLeave
+            );
         };
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
