@@ -7,5 +7,12 @@ const bio = defineCollection({
     permalink: z.string().optional(),
   }),
 });
+const projects = defineCollection({
+    type: 'content',
+    schema: z.object({
+        title: z.string(),
+        permalink: z.string().optional(),
+    }),
+});
 
-export const collections = { bio };
+export const collections = { bio, projects };

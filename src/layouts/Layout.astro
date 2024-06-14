@@ -2,18 +2,18 @@
 import '@fontsource/geist-sans';
 import { ViewTransitions } from 'astro:transitions';
 import Cursor from '../components/Cursor';
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 
 interface Props {
     title?: string;
 }
 
 const { title } = Astro.props;
-const pathname = Astro.url.pathname;
+const pathname = Astro.url.hash;
 ---
 
 <!doctype html>
-<html lang='en'>
+<html lang='en' class='snap-y snap-mandatory snap-always'>
     <head>
         <meta charset='UTF-8' />
         <meta
@@ -28,21 +28,24 @@ const pathname = Astro.url.pathname;
         <ViewTransitions />
     </head>
     <body
-        class='antialiased overflow-x-hidden overflow-y-scroll w-screen h-dvh flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100'
+        class='w-full min-h-dvh antialiased select-none flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100 scrollbar-stable scrollbar-both-edges scroll-smooth overflow-y-auto'
     >
-        <Navigation currentPathname={pathname} />
+        <Header
+            currentPathname={pathname}
+            transition:persist
+            transition:animate='none'
+        />
         <main
-            class='w-full mt-16 h-[calc(100dvh-4rem)] px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24'
+            class='w-full mt-16 px-8 sm:px-16 md:px-24 lg:px-28 xl:px-32 2xl:px-48 flex flex-col justify-start gap-16'
         >
             <slot />
         </main>
-        <Cursor client:load transition:persist />
+        <Cursor client:load transition:persist transition:animate='none' />
+        <style is:global>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+        <script></script>
     </body>
 </html>
-
-<style is:global>
-html {
-    width: 100dvw;
-    height: 100dvh;
-}
-</style>

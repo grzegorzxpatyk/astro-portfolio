@@ -1,0 +1,17 @@
+---
+import clsx from "clsx";
+
+type Props = {
+    className?: string;
+    id?: string;
+}
+
+const { className, id } = Astro.props;
+---
+
+<section
+    class={clsx('h-[calc(100dvh-4rem)] py-16 snap-end', className)}
+    id={id}
+>
+    <slot />
+</section>
