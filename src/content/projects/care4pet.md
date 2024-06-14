@@ -1,5 +1,4 @@
 ---
-layout: '../../layouts/projectLayout.astro'
 title: 'Care4Pet'
 abstract: 'Empowering Pet Care Through Seamless Communication.'
 technologies: ['TypeScript', 'NextJS', 'React', 'framer-motion', 'SQL']
