@@ -42,10 +42,10 @@ const { Content: Bio } = await entry.render();
             sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${avatar.width}px`}
         />
     </Section>
-    <Section id='projects' className='flex flex-col justify-start gap-16 opacity-0 transition-opacity duration-500 delay-300 ease-in-out'>
-        <h2 class='text-7xl sm:text-8xl md:text-9xl'>Projects</h2>
+    <Section id='projects' className='flex flex-col justify-between gap-6 opacity-0 transition-opacity duration-500 delay-300 ease-in-out'>
+        <h2 class='text-6xl sm:text-7xl md:text-8xl lg:text-9xl'>Projects</h2>
         <div
-            class='w-full h-full overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory flex flex-row justify-start gap-4 flex-nowrap'
+            class='w-full max-h-96 h-full overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory flex flex-row justify-start gap-4 flex-nowrap'
         >
             <Project />
             <Project />
@@ -58,10 +58,8 @@ const { Content: Bio } = await entry.render();
         const intersectionObserver = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.intersectionRatio > 0) {
-                    // Add 'active' class if observation target is inside viewport
                     entry.target.classList.remove('opacity-0');
                 } else {
-                    // Remove 'active' class otherwise
                     entry.target.classList.add('opacity-0');
                 }
             });
