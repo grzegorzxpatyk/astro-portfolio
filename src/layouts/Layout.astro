@@ -9,7 +9,6 @@ interface Props {
 }
 
 const { title } = Astro.props;
-const pathname = Astro.url.hash;
 ---
 
 <!doctype html>
@@ -31,7 +30,6 @@ const pathname = Astro.url.hash;
         class='w-full min-h-dvh antialiased select-none flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100 scrollbar-stable scrollbar-both-edges scroll-smooth overflow-y-auto'
     >
         <Header
-            currentPathname={pathname}
             transition:persist
             transition:animate='none'
         />

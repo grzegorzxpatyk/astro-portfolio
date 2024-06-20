@@ -1,0 +1,18 @@
+---
+import Project from './Project.astro';
+import { getEntry } from 'astro:content';
+
+const care4Pet = await getEntry('projects', 'care4pet');
+const whatDoINeed = await getEntry('projects', 'whatdoineed');
+const fashionPortfolio = await getEntry('projects', 'fashionportfolio');
+const snakeGame = await getEntry('projects', 'snakegame');
+---
+
+<div
+    class='relative w-full max-h-96 h-full overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory flex flex-row justify-start gap-4 flex-nowrap'
+>
+    <Project {...care4Pet.data} />
+    <Project {...whatDoINeed.data} />
+    <Project {...fashionPortfolio.data} />
+    <Project {...snakeGame.data} />
+</div>

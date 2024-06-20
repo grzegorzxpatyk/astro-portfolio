@@ -2,62 +2,34 @@
 import Layout from '../layouts/Layout.astro';
 import Prose from '../components/Prose.astro';
 import { getEntry } from 'astro:content';
-import { Image } from 'astro:assets';
-import avatar from '../content/bio/avatar.jpg';
 import Section from '../components/Section.astro';
-import Project from '../components/Project.astro';
+import Projects from '../components/Projects.astro';
+import HeroHeading from '../components/HeroHeading.astro';
 
-const entry = await getEntry('bio', 'short-description');
-const { Content: Bio } = await entry.render();
+const about = await getEntry('about', 'short-description');
+const { Content: About } = await about.render();
 ---
 
 <Layout>
     <Section className='flex justify-start items-center' id='home'>
-        <h1
-            class='text-7xl md:text-9xl flex flex-col justify-start items-start'
-        >
-            <span class='overflow-hidden'
-                ><span class='block animate-slide-down'>Web</span></span
-            >
-            <span class='overflow-hidden'
-                ><span class='block animate-slide-down'>Developer</span></span
-            >
-            <span class='overflow-hidden'
-                ><span class='block animate-slide-down'>Portfolio</span></span
-            >
-        </h1>
+        <HeroHeading />
     </Section>
     <Section
-        className='flex flex-col justify-between items-center md:grid md:grid-rows-1 md:grid-cols-3 gap-8 xl:gap-12 opacity-0 transition-opacity duration-500 delay-300 ease-in-out'
-        id='bio'
+        className='flex justify-end items-center lg:grid lg:grid-rows-1 lg:grid-cols-3 gap-8 xl:gap-12 opacity-0 transition-opacity duration-500 delay-300 ease-in-out'
+        id='about'
     >
         <Prose>
-            <Bio />
+            <About />
         </Prose>
-        <Image
-            src={avatar}
-            class='rounded-3xl shadow-[0_0_50px] shadow-zinc-50/10 h-auto object-cover -z-10'
-            alt='Portrait of brunette man, smiling. Red planks in the background.'
-            widths={[240, 540, 720, avatar.width]}
-            sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${avatar.width}px`}
-        />
     </Section>
     <Section id='projects' className='flex flex-col justify-between gap-6 opacity-0 transition-opacity duration-500 delay-300 ease-in-out'>
         <h2 class='text-6xl sm:text-7xl md:text-8xl lg:text-9xl'>Projects</h2>
-        <div
-            class='w-full max-h-96 h-full overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory flex flex-row justify-start gap-4 flex-nowrap'
-        >
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-        </div>
+        <Projects />
     </Section>
     <script>
         const intersectionObserver = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
-                if (entry.intersectionRatio > 0) {
+                if (entry.isIntersecting) {
                     entry.target.classList.remove('opacity-0');
                 } else {
                     entry.target.classList.add('opacity-0');
@@ -65,7 +37,7 @@ const { Content: Bio } = await entry.render();
             });
         });
 
-        intersectionObserver.observe(document.querySelector('#bio')!);
+        intersectionObserver.observe(document.querySelector('#about')!);
         intersectionObserver.observe(document.querySelector('#projects')!);
     </script>
 </Layout>

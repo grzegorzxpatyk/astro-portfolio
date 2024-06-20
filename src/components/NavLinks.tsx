@@ -1,18 +1,49 @@
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
-export default function NavLinks({
-    routes,
-    pathname,
-}: {
-    routes: string[];
-    pathname: string;
-}) {
+type Hash = 'home' | 'about' | 'projects' | '';
+
+function isHash(value: any): value is Hash {
+    if (typeof value !== 'string') {
+        throw new Error('Given value is not a string!');
+    }
+    if (
+        value !== 'home' &&
+        value !== 'about' &&
+        value !== 'projects' &&
+        value !== ''
+    ) {
+        throw new Error('Given value is not of Hash type!');
+    }
+    return true;
+}
+
+export default function NavLinks({ routes }: { routes: string[] }) {
+    const [hash, setHash] = useState<Hash>('home');
+
+    useEffect(() => {
+        function handleHashChange(event: PopStateEvent) {
+            const currentHash = location.hash.slice(1);
+            if (isHash(currentHash)) {
+                if (currentHash === '') {
+                    setHash('home');
+                } else {
+                    setHash(currentHash);
+                }
+            }
+        }
+        window.addEventListener('popstate', handleHashChange);
+        return () => {
+            window.removeEventListener('popstate', handleHashChange);
+        };
+    }, []);
+
     return (
         <nav className='flex flex-row items-center justify-start gap-2 max-md:hidden md:gap-4'>
             {routes.map((element) => (
                 <a key={element} href={`#${element}`} className='relative'>
                     {element}
-                    {pathname === element && (
+                    {hash === element && (
                         <motion.span
                             layoutId='navlink-underline'
                             transition={{

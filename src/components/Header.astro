@@ -1,19 +1,14 @@
 ---
 import NavLinks from './NavLinks';
 
-interface Props {
-    currentPathname: string;
-}
-
-const { currentPathname: pathname } = Astro.props;
-const routes = ['home', 'bio', 'projects'];
+const routes = ['home', 'about', 'projects'];
 ---
 
 <header
     class='flex flex-row justify-between w-full items-center px-8 sm:px-16 md:px-24 lg:px-28 xl:px-32 2xl:px-48 h-16 text-2xl fixed inset-0 backdrop-blur-sm animate-fade-in'
 >
     <h1 class='text-3xl font-medium'>Greg Patyk</h1><NavLinks
-        {...{ routes, pathname }}
+        {...{ routes }}
         client:load
         transition:persist
     />
