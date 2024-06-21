@@ -10,7 +10,7 @@ const { className, id } = Astro.props;
 ---
 
 <section
-    class={clsx('h-[calc(100dvh-4rem)] py-4 md:py-16 snap-end', className)}
+    class={clsx('h-[calc(100dvh-4rem)] py-4 sm:py-8 md:py-16 snap-end w-full', className)}
     id={id}
 >
     <slot />
