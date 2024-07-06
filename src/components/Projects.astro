@@ -8,11 +8,17 @@ const fashionPortfolio = await getEntry('projects', 'fashionportfolio');
 const snakeGame = await getEntry('projects', 'snakegame');
 ---
 
-<div
-    class='relative w-full max-h-96 h-full overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory flex flex-row justify-start gap-4 flex-nowrap'
->
-    <Project {...care4Pet.data} />
-    <Project {...whatDoINeed.data} />
-    <Project {...fashionPortfolio.data} />
-    <Project {...snakeGame.data} />
+<div class='relative h-full flex flex-col justify-end'>
+    <div
+        class='relative w-full max-h-96 h-full overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory flex flex-row justify-start gap-4 flex-nowrap pr-32'
+    >
+        <Project {...care4Pet.data} />
+        <Project {...whatDoINeed.data} />
+        <Project {...fashionPortfolio.data} />
+        <Project {...snakeGame.data} />
+    </div>
+    <div
+        class='absolute right-0 top-0 h-full w-32 bg-gradient-to-r from-transparent to-zinc-100 dark:to-zinc-900 pointer-events-none'
+    >
+    </div>
 </div>
