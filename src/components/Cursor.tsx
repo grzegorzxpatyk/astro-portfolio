@@ -23,10 +23,16 @@ export default function Cursor() {
         y: useSpring(mouse.y, springConfig),
     };
 
-    function handleMouseMove(e: MouseEvent) {
-        const { clientX, clientY } = e;
+    function handleMouseMove(event: MouseEvent) {
+        const { clientX, clientY } = event;
         mouse.x.set(clientX - size / 2);
         mouse.y.set(clientY - size / 2);
+        const target = event.target as HTMLElement;
+        if (target.parentElement?.parentElement?.id === 'hero-heading') {
+            scale.set(5);
+        } else {
+            scale.set(1);
+        }
     }
 
     const scale = useMotionValue(1);
