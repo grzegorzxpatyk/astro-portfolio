@@ -11,8 +11,9 @@ const { Content: About } = await about.render();
 ---
 
 <Layout>
-    <Section className='flex justify-start items-center' id='home'>
+    <Section className='flex justify-start items-center relative' id='home'>
         <HeroHeading />
+        <span class="absolute text-xl right-0 bottom-32 uppercase font-mono animate-zip translate-y-64 -rotate-90">scroll down</span>
     </Section>
     <Section
         className='flex justify-end items-center lg:grid lg:grid-rows-1 lg:grid-cols-3 gap-8 xl:gap-12 opacity-0 transition-opacity duration-500 delay-300 ease-in-out'
