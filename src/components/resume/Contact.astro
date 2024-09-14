@@ -1,0 +1,69 @@
+---
+import {
+    EnvelopeClosed,
+    Home,
+    GitHubLogo,
+    LinkBreak2,
+    Person
+} from '@astropub/icons';
+
+type Props = {
+    location: string;
+    website: string;
+    email: string;
+    linkedInURL: string;
+    linkedInName: string;
+    githubURL: string;
+    githubName: string;
+};
+
+const {
+    location,
+    website,
+    email,
+    linkedInURL,
+    linkedInName,
+    githubURL,
+    githubName,
+} = Astro.props;
+---
+
+<div
+    class='flex flex-col justify-start items-start pb-6 border-b border-b-zinc-800 dark:border-b-zinc-400 text-sm mt-6'
+>
+    <ul class='space-y-2.5 w-full'>
+        <li class='flex flex-row justify-start items-center'>
+            <Home size="15" class='mr-2' />
+            {location}
+        </li>
+        <li class='flex flex-row justify-start items-center'>
+            <LinkBreak2 size="15" class='mr-2' />
+            <a href={website} target='_blank'>{website.split('//')[1]}</a>
+        </li>
+        <li class='flex flex-row justify-start items-center'>
+            <EnvelopeClosed size="15" class="mr-2" />
+            <a href={`mailto:${email}`}
+                >
+                <!-- {
+                    isMediumScreen
+                        ? email.substring(0, email.indexOf('@'))
+                        : email
+                } -->
+                        {email.substring(0, email.indexOf('@'))}
+                </a
+            >
+        </li>
+        <li class='flex flex-row justify-start items-center'>
+            <GitHubLogo size="15" class='mr-2' />
+            <a href={githubURL} target='_blank'
+                >{githubName}</a
+            >
+        </li>
+        <li class='flex flex-row justify-start items-center print:hidden'>
+            <Person size="15" class='mr-2' />
+            <a href={linkedInURL} target='_blank'
+                >{linkedInName}</a
+            >
+        </li>
+    </ul>
+</div>
