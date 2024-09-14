@@ -89,7 +89,7 @@ export default function Cursor() {
                     transformOrigin: 'center',
                     scale: smoothScale,
                 }}
-                className='pointer-events-none fixed rounded-full'
+                className='pointer-events-none fixed z-20 rounded-full'
             ></motion.div>
         </div>
     );
