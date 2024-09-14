@@ -1,0 +1,128 @@
+---
+import Bio from '../components/resume/Bio.astro';
+import Contact from '../components/resume/Contact.astro';
+import Section from '../components/resume/Section.astro';
+import Technologies from '../components/resume/Technologies.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title='Resume'>
+    <div
+        class='min-h-screen h-fit flex flex-col bg-100% m-0 mb-4 bg-fixed bg-no-repeat bg-zinc-100 bg-opacity-70 dark:bg-zinc-900 dark:bg-opacity-90 p-0 print:p-0 print:lg:p-0 print:md:p-0 print:sm:p-0 print:m-0 print:pt-12'
+    >
+        <div
+            class='print:p-0 text-zinc-950 dark:text-zinc-300 flex flex-col justify-center items-start md:grid md:grid-cols-4 print:grid print:grid-cols-6 print:md:grid-cols-6'
+        >
+            <div
+                class='min-h-screen h-full print:min-h-full md:border-r print:border-r border-zinc-800 dark:border-zinc-400 py-6 md:pr-12 print:pr-12 print:col-span-2 print:md:col-span-2'
+            >
+                <Bio
+                    name='Greg Patyk'
+                    jobTitle='Frontend Developer'
+                    profile='https://avatars.githubusercontent.com/u/70432509?v=4'
+                    picDescription='Portrait of Greg Patyk'
+                />
+                <Contact 
+                    email="grzegorzxpatyk@gmail.com"
+                    website='https://gpatyk.dev'
+                    location="Cracow, PL"
+                    githubName='grzegorzxpatyk'
+                    githubURL="https://github.com/grzegorzxpatyk"
+                    linkedInName='Grzegorz Patyk'
+                    linkedInURL='https://www.linkedin.com/in/grzegorz-patyk/'
+                />
+                <Technologies technologies={[
+					'TypeScript',
+					'JavaScript',
+					'HTML',
+					'CSS',
+					'React.js',
+					'Next.js',
+					'tailwindcss',
+					'Svelte',
+					'SvelteKit',
+					'Redux',
+					'Jest',
+					'Playwright',
+					'Cypress',
+					'Bootstrap',
+					'radix-ui',
+					'styled-components',
+					'material-ui',
+					'REST API',
+					'GraphQL',
+					'Strapi',
+					'git',
+					'GitHub',
+					'GitLab',
+					'Vercel',
+					'Jira'
+				]} />
+            </div>
+            <div
+                class='md:col-span-3 print:col-span-4 print:md:col-span-4 md:ml-6 print:ml-6 md:p-6 pr-0'
+            >
+                <Section
+                    title='Bio'
+                    type='description'
+                    description='Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. Divergent thinker, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create aesthetic designs and implement captivating animations that elevate user experience to a new level.'
+                />
+                <Section
+                    title='Experience'
+                    type='list'
+                    listItems={[
+                        {
+                            title: 'Frontend developer',
+                            organisation: 'BMO',
+                            timePeriod: 'Jun 2024 - Sept 2024',
+                            organisationWebsite: 'https://bmo.com/',
+                            description:
+                                'Development of web pages and applications using <strong>Next.js, React, TypeScript, Jest & styled-components</strong>.',
+                        },
+                        {
+                            title: 'Junior Frontend developer',
+                            organisation: 'TTMS',
+                            timePeriod: 'Jun 2022 - Mar 2024',
+                            organisationWebsite: 'https://ttms.pl/',
+                            description:
+                                'Utilize contemporary frontend technologies such as <strong>React, Redux toolkit and TailwindCSS</strong> to create user-centric and accessible web interfaces, enhancing user engagement and satisfaction. Usage of <strong>TypeScript</strong> to build type-safe and scalable applications. Implementation of <strong>E2E visual tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs, business logic and possible solutions.',
+                        },
+                        {
+                            title: 'Junior Frontend developer',
+                            organisation: 'Alten Polska',
+                            timePeriod: 'Jan 2022 - May 2022',
+                            organisationWebsite: 'https://alten.pl/',
+                            description:
+                                'Development of the internal applications using <strong>JavaScript, Sass, PHP and SQL</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing <strong>RESTful APIs</strong> with <strong>Swagger and Postman</strong>.',
+                        },
+                        {
+                            title: 'Web development intern',
+                            organisation: 'beeanco',
+                            timePeriod: 'Jun 2021 - Dec 2021',
+                            organisationWebsite: 'https://beeanco.com/',
+                            description:
+                                'Collaborate with cross-functional teams to transform design concepts into responsive and visually appealing web interfaces using <strong>Svelte and bulma</strong>. Working on the verge of back-end and front-end with <strong>WordPress as headless CMS</strong> and <strong>GraphQL</strong>. Integrate animations and interactive elements to improve user interaction and elevate website aesthetics.',
+                        },
+                    ]}
+                />
+                <Section
+                    title='Education'
+                    type='list'
+                    isLast
+                    listItems={[
+                        {
+                            title: 'Architecture and urban planning, MSc',
+                            organisation: 'Cracow University of Technology',
+                            timePeriod: 'Feb 2019 - Sept 2020',
+                        },
+                        {
+                            title: 'Architecture and urban planning, BSc',
+                            organisation: 'Lublin University of Technology',
+                            timePeriod: 'Oct 2015 - Jan 2019',
+                        },
+                    ]}
+                />
+            </div>
+        </div>
+    </div>
+</Layout>
