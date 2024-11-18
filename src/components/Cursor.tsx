@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
     motion,
     type SpringOptions,
@@ -7,6 +7,7 @@ import {
 } from 'framer-motion';
 
 export default function Cursor() {
+    const [isSquare, setIsSquare] = useState<boolean>(false);
     const size = 30;
     const mouse = {
         x: useMotionValue(-size),
@@ -32,6 +33,14 @@ export default function Cursor() {
             scale.set(5);
         } else {
             scale.set(1);
+        }
+        if (
+            target.classList.contains('cursor-square') ||
+            target.tagName === 'STRONG'
+        ) {
+            setIsSquare(true);
+        } else {
+            setIsSquare(false);
         }
     }
 
@@ -88,8 +97,9 @@ export default function Cursor() {
                     backdropFilter: 'invert(0.9) blur(0.3px)',
                     transformOrigin: 'center',
                     scale: smoothScale,
+                    borderRadius: isSquare ? '0' : '100%',
                 }}
-                className='pointer-events-none fixed z-20 rounded-full'
+                className='pointer-events-none fixed z-20 transition-[border-radius] duration-300'
             ></motion.div>
         </div>
     );
