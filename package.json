@@ -17,7 +17,7 @@
     "@fontsource/geist-sans": "^5.0.3",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "astro": "^4.16.8",
+    "astro": "^4.16.13",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.6",
     "react": "^18.3.1",
