@@ -1,13 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Prose from '../components/Prose.astro';
-import { getEntry } from 'astro:content';
 import Section from '../components/Section.astro';
 import Projects from '../components/Projects.astro';
 import HeroHeading from '../components/HeroHeading.astro';
+import { getEntry, render } from 'astro:content';
 
 const about = await getEntry('about', 'short-description');
-const { Content: About } = await about.render();
+if (!about) {
+    throw new Error("About is undefined!");
+}
+const { Content } = await render(about);
 ---
 
 <Layout>
@@ -23,7 +26,7 @@ const { Content: About } = await about.render();
         id='about'
     >
         <Prose>
-            <About />
+            <Content />
         </Prose>
     </Section>
     <Section
