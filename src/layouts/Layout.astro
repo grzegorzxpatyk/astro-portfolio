@@ -1,6 +1,6 @@
 ---
 import '@fontsource/geist-sans';
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter, ViewTransitions } from 'astro:transitions';
 import Cursor from '../components/Cursor';
 import Header from '../components/Header.astro';
 
@@ -24,19 +24,19 @@ const { title } = Astro.props;
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <meta name='generator' content={Astro.generator} />
         <title>{`Greg Patyk - Portfolio${title ? ` | ${title}` : ''}`}</title>
-        <ViewTransitions />
+        <ClientRouter />
     </head>
     <body
-        class='w-full min-h-dvh antialiased select-none flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100 scrollbar-stable scrollbar-both-edges scroll-smooth overflow-y-auto'
+        class='w-full min-h-svh antialiased select-none flex flex-col items-start justify-start font-sans bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100 scrollbar-stable scrollbar-both-edges scroll-smooth overflow-y-auto'
     >
         <Header transition:persist transition:animate='none' />
         <main
-            class='w-full mt-16 px-8 sm:px-16 md:px-24 lg:px-28 xl:px-32 2xl:px-48 flex flex-col justify-start gap-16'
+            class='w-full mt-16 px-8 sm:px-16 md:px-24 lg:px-28 xl:px-32 2xl:px-48 flex flex-col justify-start gap-16 print:px-8 print:py-8 print:m-0'
         >
             <slot />
         </main>
         <footer
-            class='h-8 text-sm w-full px-8 sm:px-16 md:px-24 lg:px-28 xl:px-32 2xl:px-48'
+            class='h-8 text-sm w-full px-8 sm:px-16 md:px-24 lg:px-28 xl:px-32 2xl:px-48 print:hidden'
         >
             © 2024 gpatyk.dev
         </footer>
@@ -44,6 +44,11 @@ const { title } = Astro.props;
         <style is:global>
             html {
                 scroll-behavior: smooth;
+            }
+            @media print {
+            html {
+                font-size: 12px;
+            }      
             }
         </style>
     </body>

@@ -99,7 +99,7 @@ export default function Cursor() {
                     scale: smoothScale,
                     borderRadius: isSquare ? '0' : '100%',
                 }}
-                className='pointer-events-none fixed z-20 transition-[border-radius] duration-300'
+                className='pointer-events-none fixed z-20 transition-[border-radius] duration-300 print:hidden'
             ></motion.div>
         </div>
     );

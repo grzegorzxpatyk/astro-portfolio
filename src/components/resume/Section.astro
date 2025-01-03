@@ -18,7 +18,7 @@ type Props = {
 const { title, type, listItems, description, isLast = false} = Astro.props;
 ---
 
-<section class={(!isLast ? 'pb-8 mb-8 border-b border-b-zinc-700 dark:border-b-zinc-400' : '')}>
+<section class={(!isLast ? 'pb-8 mb-8 border-b border-b-zinc-700 dark:border-b-zinc-400 print:pb-6 print:mb-6' : '')}>
   <h3 class="text-2xl mb-6 font-bold">{title}</h3>
 
   {type === 'list' && listItems ? (
