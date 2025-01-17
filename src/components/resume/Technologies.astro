@@ -7,7 +7,7 @@ const { technologies } = Astro.props;
 ---
 
 <section class="mt-6">
-	<h4 class="text-lg mb-2 font-medium">Technologies</h4>
+	<h4 class="text-lg mb-2 font-semibold">Technologies</h4>
 	{technologies.map((technology: string, i: number) => (
         `${technology}${technologies.length - 1 > i ? ', ' : ''}`
     ))}
