@@ -4,7 +4,7 @@ import {
     Home,
     GitHubLogo,
     LinkBreak2,
-    Person
+    Person,
 } from '@astropub/icons';
 
 type Props = {
@@ -33,37 +33,27 @@ const {
 >
     <ul class='space-y-2.5 w-full'>
         <li class='flex flex-row justify-start items-center'>
-            <Home size="15" class='mr-2' />
+            <Home size='15' class='mr-2' />
             {location}
         </li>
         <li class='flex flex-row justify-start items-center'>
-            <LinkBreak2 size="15" class='mr-2' />
+            <LinkBreak2 size='15' class='mr-2' />
             <a href={website} target='_blank'>{website.split('//')[1]}</a>
         </li>
         <li class='flex flex-row justify-start items-center'>
-            <EnvelopeClosed size="15" class="mr-2" />
-            <a href={`mailto:${email}`}
-                >
-                <!-- {
-                    isMediumScreen
-                        ? email.substring(0, email.indexOf('@'))
-                        : email
-                } -->
-                        {email.substring(0, email.indexOf('@'))}
-                </a
-            >
+            <EnvelopeClosed size='15' class='mr-2' />
+            <a href={`mailto:${email}`} class="flex flex-row justify-start items-center">
+                {email.split('@')[0]}
+                <span class="inline md:hidden lg:inline">@{email.split('@')[1]}</span>
+            </a>
         </li>
         <li class='flex flex-row justify-start items-center'>
-            <GitHubLogo size="15" class='mr-2' />
-            <a href={githubURL} target='_blank'
-                >{githubName}</a
-            >
+            <GitHubLogo size='15' class='mr-2' />
+            <a href={githubURL} target='_blank'>{githubName}</a>
         </li>
         <li class='flex flex-row justify-start items-center print:hidden'>
-            <Person size="15" class='mr-2' />
-            <a href={linkedInURL} target='_blank'
-                >{linkedInName}</a
-            >
+            <Person size='15' class='mr-2' />
+            <a href={linkedInURL} target='_blank'>{linkedInName}</a>
         </li>
     </ul>
 </div>
