@@ -22,42 +22,57 @@ import Layout from '../layouts/Layout.astro';
                     profile='https://avatars.githubusercontent.com/u/70432509?v=4'
                     picDescription='Portrait of Greg Patyk'
                 />
-                <Contact 
-                    email="grzegorzxpatyk@gmail.com"
+                <Contact
+                    email='grzegorzxpatyk@gmail.com'
                     website='https://gpatyk.dev'
-                    location="Cracow, PL"
+                    location='Cracow, PL'
                     githubName='grzegorzxpatyk'
-                    githubURL="https://github.com/grzegorzxpatyk"
+                    githubURL='https://github.com/grzegorzxpatyk'
                     linkedInName='Grzegorz Patyk'
                     linkedInURL='https://www.linkedin.com/in/grzegorz-patyk/'
                 />
-                <Technologies technologies={[
-					'TypeScript',
-					'JavaScript',
-					'HTML',
-					'CSS',
-					'React.js',
-					'Next.js',
-					'tailwindcss',
-					'Svelte',
-					'SvelteKit',
-					'Redux',
-					'Jest',
-					'Playwright',
-					'Cypress',
-					'Bootstrap',
-					'radix-ui',
-					'styled-components',
-					'material-ui',
-					'REST API',
-					'GraphQL',
-					'Strapi',
-					'git',
-					'GitHub',
-					'GitLab',
-					'Vercel',
-					'Jira'
-				]} />
+                <Section
+                    title='Education'
+                    type='list'
+                    isLast
+                    listItems={[
+                        {
+                            title: 'Architecture, MSc',
+                            organisation: 'Cracow UOT',
+                            timePeriod: 'Sept 2020',
+                        },
+                        {
+                            title: 'Architecture, BSc',
+                            organisation: 'Lublin UOT',
+                            timePeriod: 'Jan 2019',
+                        },
+                    ]}
+                />
+                <Technologies
+                    technologies={[
+                        'TypeScript',
+                        'JavaScript',
+                        'React.js',
+                        'Next.js',
+                        'tailwindcss',
+                        'styled-components',
+                        'radix-ui',
+                        'shadcn/ui',
+                        'Redux',
+                        'Jest',
+                        'Playwright',
+                        'Cypress',
+                        'HTML',
+                        'CSS',
+                        'REST API',
+                        'GraphQL',
+                        'git',
+                        'GitHub',
+                        'GitLab',
+                        'Vercel',
+                        'Jira',
+                    ]}
+                />
             </div>
             <div
                 class='md:col-span-3 print:col-span-4 print:md:col-span-4 md:ml-12 print:ml-12 md:py-6 pr-0'
@@ -71,6 +86,19 @@ import Layout from '../layouts/Layout.astro';
                     title='Experience'
                     type='list'
                     listItems={[
+                        {
+                            title: 'Frontend developer',
+                            organisation: 'Freelance',
+                            timePeriod: 'Sept 2024 - present',
+                            organisationWebsite: 'https://gpatyk.dev',
+                            description:
+                                'Development of a appointment booking application tailored for small service businesses. The application prioritizes user privacy by giving business owners full control over client data and integrates seamlessly into existing websites.',
+                            keyTechnologies: [
+                                'Next.js – Framework for building a responsive, modern web application.',
+                                'Auth.js – Used for secure user authentication and session management.',
+                                'PostgreSQL with Kysely ORM – For efficient and structured database management.',
+                            ],
+                        },
                         {
                             title: 'Frontend developer',
                             organisation: 'BMO',
@@ -104,23 +132,7 @@ import Layout from '../layouts/Layout.astro';
                                 'Collaborate with cross-functional teams to transform design concepts into responsive and visually appealing web interfaces using <strong>Svelte and bulma</strong>. Working on the verge of back-end and front-end with <strong>WordPress as headless CMS</strong> and <strong>GraphQL</strong>. Integrate animations and interactive elements to improve user interaction and elevate website aesthetics.',
                         },
                     ]}
-                />
-                <Section
-                    title='Education'
-                    type='list'
                     isLast
-                    listItems={[
-                        {
-                            title: 'Architecture and urban planning, MSc',
-                            organisation: 'Cracow University of Technology',
-                            timePeriod: 'Feb 2019 - Sept 2020',
-                        },
-                        {
-                            title: 'Architecture and urban planning, BSc',
-                            organisation: 'Lublin University of Technology',
-                            timePeriod: 'Oct 2015 - Jan 2019',
-                        },
-                    ]}
                 />
             </div>
         </div>
