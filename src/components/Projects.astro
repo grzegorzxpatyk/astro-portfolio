@@ -1,23 +1,15 @@
 ---
+import { getCollection } from 'astro:content';
 import Project from './Project.astro';
-import { getEntry } from 'astro:content';
 
-const care4Pet = await getEntry('projects', 'care4pet');
-const whatDoINeed = await getEntry('projects', 'whatdoineed');
-const fashionPortfolio = await getEntry('projects', 'fashionportfolio');
-const snakeGame = await getEntry('projects', 'snakegame');
-const chidoriStudio = await getEntry('projects', 'chidoristudio');
+const projects = await getCollection('projects');
 ---
 
 <div class='relative h-full flex flex-col justify-end'>
     <div
         class='relative w-full max-h-96 h-full overflow-x-auto scrollbar-none scroll-smooth snap-x snap-mandatory flex flex-row justify-start gap-4 flex-nowrap pr-32'
     >
-        <Project {...chidoriStudio.data} />
-        <Project {...care4Pet.data} />
-        <Project {...whatDoINeed.data} />
-        <Project {...fashionPortfolio.data} />
-        <Project {...snakeGame.data} />
+        {projects.map((project) => <Project {...project.data} />)}
     </div>
     <div
         class='absolute right-0 top-0 h-full w-32 bg-gradient-to-r from-transparent to-zinc-100 dark:to-zinc-900 pointer-events-none'
