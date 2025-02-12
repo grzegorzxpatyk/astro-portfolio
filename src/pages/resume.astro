@@ -3,6 +3,7 @@ import Bio from '../components/resume/Bio.astro';
 import Contact from '../components/resume/Contact.astro';
 import Section from '../components/resume/Section.astro';
 import Technologies from '../components/resume/Technologies.astro';
+import RODOClause from '../components/RODOClause.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -14,13 +15,12 @@ import Layout from '../layouts/Layout.astro';
             class='print:p-0 text-zinc-950 dark:text-zinc-300 flex flex-col justify-center items-start md:grid md:grid-cols-4 print:grid print:grid-cols-6 print:md:grid-cols-6'
         >
             <div
-                class='min-h-screen h-full print:min-h-full md:border-r print:border-r border-zinc-800 dark:border-zinc-400 py-6 md:pr-12 print:pr-12 print:col-span-2 print:md:col-span-2'
+                class='min-h-screen h-full print:min-h-full md:border-r print:border-r border-zinc-800 dark:border-zinc-400 py-6 md:pr-12 print:pr-8 print:col-span-2 print:md:col-span-2 relative'
             >
                 <Bio
                     name='Grzegorz Patyk'
                     jobTitle='Frontend Developer'
-                    profile='https://avatars.githubusercontent.com/u/70432509?v=4'
-                    picDescription='Portrait of Greg Patyk'
+                    picDescription='Portrait of Grzegorz Patyk'
                 />
                 <Contact
                     email='grzegorzxpatyk@gmail.com'
@@ -39,12 +39,12 @@ import Layout from '../layouts/Layout.astro';
                         {
                             title: 'Architecture, MSc',
                             organisation: 'Cracow UOT',
-                            timePeriod: 'Sept 2020',
+                            timePeriod: '2019 - 2020',
                         },
                         {
                             title: 'Architecture, BSc',
                             organisation: 'Lublin UOT',
-                            timePeriod: 'Jan 2019',
+                            timePeriod: '2015 - 2019',
                         },
                     ]}
                 />
@@ -54,8 +54,6 @@ import Layout from '../layouts/Layout.astro';
                         'JavaScript',
                         'React.js',
                         'Next.js',
-                        'Svelte',
-                        'SvelteKit',
                         'tailwindcss',
                         'styled-components',
                         'radix-ui',
@@ -63,6 +61,7 @@ import Layout from '../layouts/Layout.astro';
                         'Material UI',
                         'Redux',
                         'Jest',
+                        'React Testing Library',
                         'Playwright',
                         'Cypress',
                         'HTML',
@@ -84,9 +83,10 @@ import Layout from '../layouts/Layout.astro';
                         'CI/CD'
                     ]}
                 />
+                <RODOClause className='absolute bottom-5' />
             </div>
             <div
-                class='md:col-span-3 print:col-span-4 print:md:col-span-4 md:ml-12 print:ml-12 md:py-6 pr-0'
+                class='md:col-span-3 print:col-span-4 print:md:col-span-4 md:ml-12 print:ml-8 md:py-6 pr-0'
             >
                 <Section
                     title='Bio'
@@ -103,28 +103,29 @@ import Layout from '../layouts/Layout.astro';
                             timePeriod: 'Sept 2024 - present',
                             organisationWebsite: 'https://gpatyk.dev',
                             description:
-                                'Development of a appointment booking application tailored for small service businesses. The application prioritizes user privacy by giving business owners full control over client data and integrates seamlessly into existing websites.',
+                                'Designed and developed a privacy-focused appointment booking application, allowing small business owners to retain full control over client data while seamlessly integrating into existing websites. Led the project from inception to deployment, ensuring scalability, security, and a smooth user experience. ',
                             keyTechnologies: [
-                                'Next.js – Framework for building a responsive, modern web application.',
-                                'Auth.js – Used for secure user authentication and session management.',
-                                'PostgreSQL with Kysely ORM – For efficient and structured database management.',
+                                'Next.js – Built a modern, responsive web application with server-side rendering.',
+                                'Auth.js – Implemented secure user authentication and session management.',
+                                'PostgreSQL + Kysely ORM – Structured, efficient database management.',
+                                'Tailwind CSS – Created a clean and accessible UI with a mobile-first approach.'
                             ],
                         },
                         {
                             title: 'Frontend developer',
-                            organisation: 'BMO',
+                            organisation: 'Bank of Montreal',
                             timePeriod: 'Jun 2024 - Sept 2024',
                             organisationWebsite: 'https://bmo.com/',
                             description:
-                                'Development of web pages and applications using <strong>Next.js, React, TypeScript, Jest & styled-components</strong>. Taking part in code review process and contributing to the app architecture discussions. Estimating time for the tasks to improve sprint planning sessions. Working closely with UX/UI designers to implement <strong>pixel perfect</strong> design using <strong>Figma</strong>.',
+                                'Developed high-performance, accessible web pages and applications using Next.js, React, TypeScript, Jest, and styled-components, ensuring scalability and maintainability. Integrated Contentful as a headless CMS, enabling dynamic content management and improving editorial workflow. Actively participated in code reviews, contributing to best practices, performance optimizations, and overall code quality. Engaged in architectural discussions, helping shape the direction of the application and implementing scalable solutions. Estimated task complexity and effort to improve sprint planning and delivery efficiency in an Agile environment. Collaborated closely with UX/UI designers, translating Figma designs into pixel-perfect, responsive components while ensuring cross-browser compatibility and adherence to accessibility standards (WCAG).',
                         },
                         {
                             title: 'Junior Frontend developer',
-                            organisation: 'TTMS',
+                            organisation: 'Transition Technologies MS',
                             timePeriod: 'Jun 2022 - Mar 2024',
                             organisationWebsite: 'https://ttms.pl/',
                             description:
-                                'Utilize contemporary frontend technologies such as <strong>React, Redux toolkit, Material UI and TailwindCSS</strong> to create user-centric and accessible web interfaces, enhancing user engagement and satisfaction. Usage of <strong>TypeScript</strong> to build type-safe and scalable applications. Implementation of <strong>E2E tests using Cypress</strong>. Taking part in meetings with clients, discussing their needs, business logic and possible solutions.',
+                                'Developed user-centric, accessible web applications using React, Redux Toolkit, Material UI, and Tailwind CSS, improving user engagement and satisfaction. Built scalable, maintainable applications with TypeScript, ensuring type safety and reducing runtime errors. Designed and executed E2E tests with Cypress to enhance application reliability and streamline the QA process. Actively collaborated with clients, gathering requirements, discussing business logic, and proposing optimal technical solutions. Worked in an Agile environment, participating in sprint planning, code reviews, and cross-functional team discussions to drive continuous improvement.',
                         },
                         {
                             title: 'Junior Frontend developer',
@@ -132,7 +133,7 @@ import Layout from '../layouts/Layout.astro';
                             timePeriod: 'Jan 2022 - May 2022',
                             organisationWebsite: 'https://alten.pl/',
                             description:
-                                'Development of the internal applications using <strong>JavaScript, jQuery, Sass, PHP and SQL</strong>. Implementation of client-side form validation, with the use of js and regular expressions. Testing <strong>RESTful APIs</strong> with <strong>Swagger and Postman</strong>.',
+                                'Developed and maintained internal applications using JavaScript, SaSS, PHP, and SQL, ensuring responsive and scalable solutions. Implemented client-side form validation with JavaScript and regular expressions to enhance data integrity. Tested and debugged RESTful APIs using Swagger and Postman, collaborating with backend developers to optimize performance and reliability.',
                         },
                         {
                             title: 'Web development intern',
@@ -140,7 +141,7 @@ import Layout from '../layouts/Layout.astro';
                             timePeriod: 'Jun 2021 - Dec 2021',
                             organisationWebsite: 'https://beeanco.com/',
                             description:
-                                'Collaborate with cross-functional teams to transform design concepts into responsive and visually appealing web interfaces using <strong>TypeScript, Svelte and tailwindcss</strong>. Working on the verge of back-end and front-end with <strong>WordPress as headless CMS</strong> and <strong>GraphQL</strong>. Integrate animations and interactive elements to improve user interaction and elevate website aesthetics.',
+                                'Collaborated with cross-functional teams, including designers and backend developers, to build responsive, accessible, and high-performance web interfaces using TypeScript, React, and Tailwind CSS. Developed and maintained a headless CMS architecture with WordPress and GraphQL, working at the intersection of frontend and backend. Integrated animations and interactive elements to enhance user experience, optimize engagement, and elevate website aesthetics.',
                         },
                     ]}
                     isLast

@@ -24,16 +24,16 @@ const { title, type, listItems, description, isLast = false } = Astro.props;
         ? 'pb-8 mb-8 border-b border-b-zinc-700 dark:border-b-zinc-400 print:pb-6 print:mb-6'
         : '', {'mt-4': title === 'Education'}]}
 >
-    <h3 class='text-2xl mb-6 font-bold'>{title}</h3>
+    <h3 class='text-2xl mb-6 print:mb-2 font-bold'>{title}</h3>
 
     {
         type === 'list' && listItems ? (
             listItems.map((item) => (
-                <div class='mb-6'>
+                <div class='mb-6 print:mb-3'>
                     <h4 class='text-lg block border-b-zinc-500 dark:border-b-zinc-800 font-semibold'>
                         {item.title}
                     </h4>
-                    <div class='flex flex-row justify-between items-center text-sm mb-3'>
+                    <div class='flex flex-row justify-between items-center text-sm mb-3 print:mb-1'>
                         <span>
                             {item.organisationWebsite ? (
                                 <a
@@ -49,12 +49,12 @@ const { title, type, listItems, description, isLast = false } = Astro.props;
                         <span>{item.timePeriod}</span>
                     </div>
                     {item.description && (
-                        <p class='text-justify' set:html={item.description} />
+                        <p class='text-justify print:text-base/5' set:html={item.description} />
                     )}
                     {item.keyTechnologies && (
-                        <p class="my-2">
+                        <p class="my-2 print:my-0">
                             Key technologies:
-                            <ul class="pl-4 list-disc">
+                            <ul class="pl-4 list-disc print:text-base/5">
                                 {item.keyTechnologies.map((tech) => (
                                     <li>{tech}</li>
                                 ))}
@@ -64,7 +64,7 @@ const { title, type, listItems, description, isLast = false } = Astro.props;
                 </div>
             ))
         ) : type === 'description' && description ? (
-            <p class='text-justify'>{description}</p>
+            <p class='text-justify print:text-base/5'>{description}</p>
         ) : null
     }
 </section>

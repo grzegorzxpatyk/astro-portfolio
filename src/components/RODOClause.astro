@@ -1,0 +1,24 @@
+---
+interface Props {
+    className: string;
+    companyName?: string;
+}
+const { className, companyName } = Astro.props;
+---
+
+{
+    companyName && (
+        <div
+            class:list={[
+                'text-sm/4 text-zinc-600 hidden print:block mr-8 text-justify',
+                className,
+            ]}
+        >
+            I consent to the processing of my personal data contained in my CV
+            for the purposes of the current and future recruitment processes
+            conducted by
+            {companyName}, in accordance with Regulation (EU) 2016/679 of the
+            European Parliament and of the Council of 27 April 2016 (GDPR).
+        </div>
+    )
+}
