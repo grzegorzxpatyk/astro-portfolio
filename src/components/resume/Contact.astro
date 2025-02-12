@@ -4,13 +4,15 @@ import {
     Home,
     GitHubLogo,
     LinkBreak2,
-    Person,
 } from '@astropub/icons';
+import MobileIcon from './MobileIcon.astro';
+import LinkedInIcon from './LinkedInIcon.astro';
 
 type Props = {
     location: string;
     website: string;
     email: string;
+    phone: string;
     linkedInURL: string;
     linkedInName: string;
     githubURL: string;
@@ -21,6 +23,7 @@ const {
     location,
     website,
     email,
+    phone,
     linkedInURL,
     linkedInName,
     githubURL,
@@ -48,11 +51,15 @@ const {
             </a>
         </li>
         <li class='flex flex-row justify-start items-center'>
+            <MobileIcon size='15' className='mr-2 flex-shrink-0' />
+            <a href={`tel:${phone}`}>{phone}</a>
+        </li>
+        <li class='flex flex-row justify-start items-center'>
             <GitHubLogo size='15' class='mr-2 flex-shrink-0' />
             <a href={githubURL} target='_blank'>{githubName}</a>
         </li>
         <li class='flex flex-row justify-start items-center print:hidden'>
-            <Person size='15' class='mr-2 flex-shrink-0' />
+            <LinkedInIcon size='15' className='mr-2 flex-shrink-0' />
             <a href={linkedInURL} target='_blank'>{linkedInName}</a>
         </li>
     </ul>
