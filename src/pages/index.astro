@@ -5,10 +5,11 @@ import Section from '../components/Section.astro';
 import Projects from '../components/Projects.astro';
 import HeroHeading from '../components/HeroHeading.astro';
 import { getEntry, render } from 'astro:content';
+import { ArrowDown } from '@astropub/icons';
 
 const about = await getEntry('about', 'short-description');
 if (!about) {
-    throw new Error("About is undefined!");
+    throw new Error('About is undefined!');
 }
 const { Content } = await render(about);
 ---
@@ -17,9 +18,10 @@ const { Content } = await render(about);
     <Section className='flex justify-start items-center relative' id='home'>
         <HeroHeading />
         <span
-            class='absolute text-xl right-0 bottom-32 uppercase font-mono animate-zip translate-y-64 -rotate-90 opacity-0'
-            >scroll down</span
+            class='absolute right-0 bottom-32'
         >
+            <ArrowDown size='50' class='text-red-500 animate-pulse-3-times opacity-0' />
+        </span>
     </Section>
     <Section
         className='flex justify-end items-center lg:grid lg:grid-rows-1 lg:grid-cols-3 gap-8 xl:gap-12 opacity-0 transition-opacity duration-500 delay-300 ease-in-out'
@@ -46,13 +48,15 @@ const { Content } = await render(about);
                 }
             });
         });
-        
+
         document.addEventListener('astro:page-load', (event) => {
             const target = event.target as Document;
-            
+
             if (target.location.pathname === '/') {
                 intersectionObserver.observe(document.querySelector('#about')!);
-                intersectionObserver.observe(document.querySelector('#projects')!);
+                intersectionObserver.observe(
+                    document.querySelector('#projects')!
+                );
             }
         });
     </script>

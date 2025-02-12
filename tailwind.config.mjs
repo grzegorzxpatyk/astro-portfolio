@@ -17,7 +17,8 @@ export default {
 			animation: {
 				'slide-down': 'slide-down 1s cubic-bezier(0.75,-0.23, 0.34, 1.39)',
 				'fade-in': '2s ease-in wait-fade-in 1, 1s ease-in 1s fade-in 1',
-				'zip': '2s zip 2s cubic-bezier(0.75,-0.23, 0.34, 1.39) 3, 1s fade-out 8s ease-in 1'
+				'zip': '2s zip 2s cubic-bezier(0.75,-0.23, 0.34, 1.39) 3, 1s fade-out 8s ease-in 1',
+				'pulse-3-times': '2s pulse 1.2s cubic-bezier(0.75,-0.23, 0.34, 1.39) 3'
 			},
 			keyframes: {
 				'slide-down': {
@@ -37,9 +38,9 @@ export default {
 					'100%': { opacity: 0 },
 				},
 				'zip': {
-					'0%': { opacity: '1', transform: 'translateY(16rem) rotate(-90deg)' },
-					'60%': { opacity: '1', transform: 'translateY(0) rotate(-90deg)' },
-					'100%': { opacity: '1', transform: 'translateY(16rem) rotate(-90deg)' },
+					'0%': { opacity: '1', transform: 'translateY(16rem)' },
+					'60%': { opacity: '1', transform: 'translateY(0)' },
+					'100%': { opacity: '1', transform: 'translateY(16rem)' },
 				},
 			},
 		},
