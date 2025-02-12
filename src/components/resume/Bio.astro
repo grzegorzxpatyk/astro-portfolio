@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import avatar from '../../assets/avatar.png';
+
 	type Props = {
         profile: string;
         picDescription: string;
@@ -6,11 +9,11 @@
         jobTitle: string;
     }
 
-    const { profile, picDescription, name, jobTitle } = Astro.props;
+    const { picDescription, name, jobTitle } = Astro.props;
 ---
 
 <section class="landscape:max-md:flex-row-reverse landscape:max-md:justify-between landscape:max-md:items-center flex flex-col justify-start items-start pb-6 border-b border-b-zinc-800 dark:border-b-zinc-400">
-	<img src={profile} alt={picDescription} class="rounded-full landscape:max-md:mb-0 mb-8 min-w-[120px] landscape:max-md:w-1/4 w-5/6 self-center sm:self-auto sm:w-full shadow-2xl shadow-zinc-500 dark:shadow-zinc-700 print:shadow-none" />
+	<Image src={avatar} alt={picDescription} class="rounded-full landscape:max-md:mb-0 mb-8 min-w-[120px] landscape:max-md:w-1/4 w-5/6 self-center sm:self-auto sm:w-full shadow-2xl shadow-zinc-500 dark:shadow-zinc-700 print:shadow-none filter invert-0 grayscale-[0.3] hover:grayscale-0 transition-all print:grayscale-0 print:border" />
 	<div class="flex flex-col items-start justify-between">
 		<h1 class="text-zinc-950 dark:text-zinc-100 text-3xl landscape:max-md:mb-2 text-left font-extrabold">{name}</h1>
 		<h2 class="dark:text-zinc-300 text-xl font-medium">{jobTitle}</h2>
