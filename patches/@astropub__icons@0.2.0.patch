@@ -1,0 +1,3861 @@
+diff --git a/dist/ActivityLog.astro b/dist/ActivityLog.astro
+index 88df0e751041d9bd93c9fd4d4ccc3d90057e192d..523aecd7ca826c54a6c9130574b064f0bbf96cc7 100644
+--- a/dist/ActivityLog.astro
++++ b/dist/ActivityLog.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AlignBaseline.astro b/dist/AlignBaseline.astro
+index fda47433ec12b84fdf9570afc5de5c22c7149135..28bd16d028fb4fd160e320fd629c9be9b6fe61d8 100644
+--- a/dist/AlignBaseline.astro
++++ b/dist/AlignBaseline.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AlignBottom.astro b/dist/AlignBottom.astro
+index 09138fc53b0157ba905090f145b40606538170a1..2625b542a2aac005c10b0b557afb1257417b4836 100644
+--- a/dist/AlignBottom.astro
++++ b/dist/AlignBottom.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AlignCenterHorizontally.astro b/dist/AlignCenterHorizontally.astro
+index c457c3768f3279436afda9cbaccc78c8990da53e..9c9fbc1f65828c80795d30b6f233a2c432701f3b 100644
+--- a/dist/AlignCenterHorizontally.astro
++++ b/dist/AlignCenterHorizontally.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AlignCenterVertically.astro b/dist/AlignCenterVertically.astro
+index 626ea8316769d42b21bded5eaecb09ed7c7a1b40..d4fff3e52cedb5c4572cfc26be6d4290cc0108e2 100644
+--- a/dist/AlignCenterVertically.astro
++++ b/dist/AlignCenterVertically.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AlignLeft.astro b/dist/AlignLeft.astro
+index 90dda4498642f0c428ec4155005d867183462d3e..7e0534b934ab35bbe4fac158acb78d8959f467ba 100644
+--- a/dist/AlignLeft.astro
++++ b/dist/AlignLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AlignRight.astro b/dist/AlignRight.astro
+index af4b7e1c285da2fac1647d3ef3dbddeddefdf7ea..84703878873e7b33c79d6b812814cc5f85e14ccd 100644
+--- a/dist/AlignRight.astro
++++ b/dist/AlignRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AlignTop.astro b/dist/AlignTop.astro
+index 7d3e56e55df8a64099e61b0ba9855ad932df66e7..f8d1f09cf203906ab89735e42243b2d470bcde0c 100644
+--- a/dist/AlignTop.astro
++++ b/dist/AlignTop.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AllSides.astro b/dist/AllSides.astro
+index f0c81a114592d027a9f22abda8da79645d3673d4..0a9818543c04826306ccad7e61f355ed49a942ab 100644
+--- a/dist/AllSides.astro
++++ b/dist/AllSides.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Angle.astro b/dist/Angle.astro
+index f043d31ae8c4da7eff41aa4314fd69580e717e28..37d668c7eb31dce9b444c11cccab4ef83198102e 100644
+--- a/dist/Angle.astro
++++ b/dist/Angle.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Archive.astro b/dist/Archive.astro
+index b39d4611a7da7cb66b128db856b6a588f71321b0..a8c3038e66a2a322a2b37140f40d09be0eec2c6a 100644
+--- a/dist/Archive.astro
++++ b/dist/Archive.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowBottomLeft.astro b/dist/ArrowBottomLeft.astro
+index d12419576985708f3a65b7c005da1aa0a613eadc..119673ce655f4485661456b5991c7fe40d13f669 100644
+--- a/dist/ArrowBottomLeft.astro
++++ b/dist/ArrowBottomLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowBottomRight.astro b/dist/ArrowBottomRight.astro
+index dd5c0333336be696189c87e70d88b07f2c1db3e5..82c6225b25fc4518eee69fb51651209f77795db4 100644
+--- a/dist/ArrowBottomRight.astro
++++ b/dist/ArrowBottomRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowDown.astro b/dist/ArrowDown.astro
+index 0520029af5beff0d7f1d9e1ba6b499cb20c402d7..d170f031b29d9a84a3af35ac949cbf62e46eb239 100644
+--- a/dist/ArrowDown.astro
++++ b/dist/ArrowDown.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowLeft.astro b/dist/ArrowLeft.astro
+index 499cf685fb0e786926abf2f4d8d24b2dd0659bce..cfcba81f88250f530160861fd1fec991c54b27f9 100644
+--- a/dist/ArrowLeft.astro
++++ b/dist/ArrowLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowRight.astro b/dist/ArrowRight.astro
+index 925d2164c496f978e9761d1535d6e2c4f0b51a3f..ccb6c33c63cc45d9bae13796d5351dcbef3490b0 100644
+--- a/dist/ArrowRight.astro
++++ b/dist/ArrowRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowTopLeft.astro b/dist/ArrowTopLeft.astro
+index 88c940a246c9004c830c343bfda0db11dc381349..b1237b6f1fa2ddaeeffc6782951752b4840a2c40 100644
+--- a/dist/ArrowTopLeft.astro
++++ b/dist/ArrowTopLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowTopRight.astro b/dist/ArrowTopRight.astro
+index 56c04962a1ef0c77f95b5ad260af559d645211cb..ba7d172434fd33dcef25f58bec12f6864c67dd59 100644
+--- a/dist/ArrowTopRight.astro
++++ b/dist/ArrowTopRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ArrowUp.astro b/dist/ArrowUp.astro
+index ecd60e6650099f5cef75e7197977e0d662169e2e..6166e49daceb677279106d11c05aadc93d8fadc7 100644
+--- a/dist/ArrowUp.astro
++++ b/dist/ArrowUp.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/AspectRatio.astro b/dist/AspectRatio.astro
+index 3578943e3a037bbb8f34b82a60d5ca5b606d4857..c6c4c1376ab06e0474d30aa560e16e184e93188d 100644
+--- a/dist/AspectRatio.astro
++++ b/dist/AspectRatio.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Avatar.astro b/dist/Avatar.astro
+index 0f9d9095ef430639ef2db3042e2f22108fa53591..6ff2b8c13e8271a357fa3bff8aa98ff6d76abfa0 100644
+--- a/dist/Avatar.astro
++++ b/dist/Avatar.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Backpack.astro b/dist/Backpack.astro
+index ec202584de90c34bbeb8ac1731b96d4524524944..10940f1fe3384c3b4bdd4d78df8eea010afe24f8 100644
+--- a/dist/Backpack.astro
++++ b/dist/Backpack.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Badge.astro b/dist/Badge.astro
+index 2b658becf264044de710d435d0c7cdba577c0ac4..fbd437637b535f2a13429cf78168d6f56fc2ef5f 100644
+--- a/dist/Badge.astro
++++ b/dist/Badge.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BarChart.astro b/dist/BarChart.astro
+index f631f2ab05fc8caf60f0ba539b068e6501de4b16..2dcf1fddee088d778d53565b3a78cf89981a9650 100644
+--- a/dist/BarChart.astro
++++ b/dist/BarChart.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Bell.astro b/dist/Bell.astro
+index 52b5beed49f30e4902ff72cfb88eacede7e645a1..45a835a2f58ce5d376bbb52d530282ffb6236d45 100644
+--- a/dist/Bell.astro
++++ b/dist/Bell.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BlendingMode.astro b/dist/BlendingMode.astro
+index 6c7dc80b0e31093200fc70f5fe08dfa66b8981a5..132018735f3e63476a5b79c458bb3932671591cb 100644
+--- a/dist/BlendingMode.astro
++++ b/dist/BlendingMode.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Bookmark.astro b/dist/Bookmark.astro
+index 4efab182a426f3b5914bd3e610f7215e151ea38f..20819a761b92bdfd0eeffcc86e2b030b1916893d 100644
+--- a/dist/Bookmark.astro
++++ b/dist/Bookmark.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderAll.astro b/dist/BorderAll.astro
+index 21c7067724f190d0870be177e64ffbcf1790569c..bfbf5cb3e5d281ac1adc66dc49829ba583d100b6 100644
+--- a/dist/BorderAll.astro
++++ b/dist/BorderAll.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderBottom.astro b/dist/BorderBottom.astro
+index 23f550ddf32f2b9c46cb2fe8d7911baed3ac8098..d67ed4c76f982fd2f3fa36ef465afd1847cc3d13 100644
+--- a/dist/BorderBottom.astro
++++ b/dist/BorderBottom.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderDashed.astro b/dist/BorderDashed.astro
+index 30c501dab79220f15383eb0922235d5049d887c4..4ff00322a0dbf73f8a25a57cc217e674a43faa36 100644
+--- a/dist/BorderDashed.astro
++++ b/dist/BorderDashed.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderDotted.astro b/dist/BorderDotted.astro
+index 1648be89a158a350e53643984895aa9f3ad18944..618cd81f2c17a3f12389b6db92c92748d8348d05 100644
+--- a/dist/BorderDotted.astro
++++ b/dist/BorderDotted.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderLeft.astro b/dist/BorderLeft.astro
+index bbab33e9a6c3692b85530357e4625cf7de69c2a2..81b0ce263fc9c0a42bab75dbfc732683643d374d 100644
+--- a/dist/BorderLeft.astro
++++ b/dist/BorderLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderNone.astro b/dist/BorderNone.astro
+index 25ee29688979c7f11e59bcac5c29005bcf7e2860..ffaf83b79c8bd28dc654c5199f7e20ba016f64db 100644
+--- a/dist/BorderNone.astro
++++ b/dist/BorderNone.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderRight.astro b/dist/BorderRight.astro
+index 3b3b25665319d32fddd9c3b6fd4b086a3138370f..07b96f933dd9e426b49e7793e05cc7b5406ff982 100644
+--- a/dist/BorderRight.astro
++++ b/dist/BorderRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderSolid.astro b/dist/BorderSolid.astro
+index 99863f03a8c97134496981143c7c9afe36e4990e..110a7bb09481dbce3a5e839a45ecc1166b4b73d8 100644
+--- a/dist/BorderSolid.astro
++++ b/dist/BorderSolid.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderSplit.astro b/dist/BorderSplit.astro
+index 84ae1d0bdf75682df1ca11aac58c84b3f8f76c20..7ff4b2619924f31b827720f464dfefa8df9bd82d 100644
+--- a/dist/BorderSplit.astro
++++ b/dist/BorderSplit.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderStyle.astro b/dist/BorderStyle.astro
+index d4c46d2fd6d6bfbebee01ccbe35c06569c9c9107..23bb8483f8261d23b8e08000ef5635a8472ffac2 100644
+--- a/dist/BorderStyle.astro
++++ b/dist/BorderStyle.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BorderTop.astro b/dist/BorderTop.astro
+index 3d735ec2579e4b54116c6e0b23849b544f192665..5faed850be2b1d478ac15fc42e152abb2445cdc6 100644
+--- a/dist/BorderTop.astro
++++ b/dist/BorderTop.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Box.astro b/dist/Box.astro
+index a929de3272c0bf6c6f6bde669751352916cfe946..5c0b428478f0f3236a057240acc8b27fc119f9ba 100644
+--- a/dist/Box.astro
++++ b/dist/Box.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/BoxModel.astro b/dist/BoxModel.astro
+index 9393b8b631124aedb7f7336b9a013bf10879c437..ec276767fd7eef18472d0aa90e3865616905cd16 100644
+--- a/dist/BoxModel.astro
++++ b/dist/BoxModel.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Button.astro b/dist/Button.astro
+index cd58ba883f1c00bbdac3f0ad0540cb6b49a8b605..b3a2a9a80beefb35c6abc6746cbec6103ed17594 100644
+--- a/dist/Button.astro
++++ b/dist/Button.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Calendar.astro b/dist/Calendar.astro
+index 973aa64ffe1ef5dad2b950fc05a2807122849f02..37dcbe079b84dafdd7309ec236f4fe41ba3cc4d6 100644
+--- a/dist/Calendar.astro
++++ b/dist/Calendar.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Camera.astro b/dist/Camera.astro
+index 24c7bc28cbcfa5230c078b838f54cc59c91f7002..9112f7e66d88f6518cad45042161edd90724275f 100644
+--- a/dist/Camera.astro
++++ b/dist/Camera.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CardStack.astro b/dist/CardStack.astro
+index 48ea05f7a895ba15f2e2fb08bed8c44e4439eba6..86d426e08898cfe5a0efabb1510055f8e64ba6fb 100644
+--- a/dist/CardStack.astro
++++ b/dist/CardStack.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CardStackMinus.astro b/dist/CardStackMinus.astro
+index c8defa1abbae249e392af97e0cca37f6d3bed289..d624b8fac6c08e16c5135cd02885c607db747a24 100644
+--- a/dist/CardStackMinus.astro
++++ b/dist/CardStackMinus.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CardStackPlus.astro b/dist/CardStackPlus.astro
+index 30e8473817de740d58adf018cfdcbf7de09e83be..75e67c6b8793395ca4ba22100485c5a31649ebb6 100644
+--- a/dist/CardStackPlus.astro
++++ b/dist/CardStackPlus.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CaretDown.astro b/dist/CaretDown.astro
+index 609e270203b96d84f157fd0b36d906c6039a136f..bd86f60f60616a61e900c2395be990f07fb65575 100644
+--- a/dist/CaretDown.astro
++++ b/dist/CaretDown.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CaretLeft.astro b/dist/CaretLeft.astro
+index 3c19831b1154cae7495dee6a879b04ed9fe30237..0ab1525b653f88357a40f1f7d28cdad3f3e4c583 100644
+--- a/dist/CaretLeft.astro
++++ b/dist/CaretLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CaretRight.astro b/dist/CaretRight.astro
+index 9be26598cdde6b8725dbbb2956efd8703eddd78f..04218b98b8ec29893bbbf8386ebf510b1c43c08e 100644
+--- a/dist/CaretRight.astro
++++ b/dist/CaretRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CaretSort.astro b/dist/CaretSort.astro
+index d14e0f73956292919a29ff384d8c9a4b6f06569f..d1ed71122ae0fd94e0397f6380a6206c620c190b 100644
+--- a/dist/CaretSort.astro
++++ b/dist/CaretSort.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CaretUp.astro b/dist/CaretUp.astro
+index 211a7a4b3e4a06ddb45e4d857a3c1eaa2d080d2b..10906e56acd340cb1f8e0c57d17412fd42173b03 100644
+--- a/dist/CaretUp.astro
++++ b/dist/CaretUp.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ChatBubble.astro b/dist/ChatBubble.astro
+index 7f6fdb5ba74daa1970f5a9007f01a5d906fd598d..01e6b846b6f604275fbcd4988eff078667755a40 100644
+--- a/dist/ChatBubble.astro
++++ b/dist/ChatBubble.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Check.astro b/dist/Check.astro
+index 5ad195b454da93d8a07898beebfe5bd18cf53c9b..3a6312039c52977aa44e5ab91fc84ba096703c7f 100644
+--- a/dist/Check.astro
++++ b/dist/Check.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CheckCircled.astro b/dist/CheckCircled.astro
+index 71781654b9d99be3642180957d18f102b541c43d..950935bf984e0c768617ee6c56a76df0ed9c3701 100644
+--- a/dist/CheckCircled.astro
++++ b/dist/CheckCircled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Checkbox.astro b/dist/Checkbox.astro
+index 3086177507fd8180e23aa0ab9c05fb10c181ba5c..82360517c8aa8f9c86af41fbd8ad1b57d15d5174 100644
+--- a/dist/Checkbox.astro
++++ b/dist/Checkbox.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ChevronDown.astro b/dist/ChevronDown.astro
+index 1ea96d68dbe24ccb1af51fcb99419a1706cf9aac..dd684f06b67c43642648a4c0124316a305a37ba9 100644
+--- a/dist/ChevronDown.astro
++++ b/dist/ChevronDown.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ChevronLeft.astro b/dist/ChevronLeft.astro
+index b8c2d29790474cc41633b560a14ddc5317b60d1f..86fe5af3e4a6e0494b7d1483332ec99db75947ad 100644
+--- a/dist/ChevronLeft.astro
++++ b/dist/ChevronLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ChevronRight.astro b/dist/ChevronRight.astro
+index f3faaed58c43b3226f37e4c76f12dbcd0fa101e8..4ce8e395d64e3084a41425c5b17e686009db1a87 100644
+--- a/dist/ChevronRight.astro
++++ b/dist/ChevronRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ChevronUp.astro b/dist/ChevronUp.astro
+index 2cd2838e1b7ec007d03995fd182ede363dcc7e1c..ac50c6b1916518f2d0ee492e90d028b4255e62de 100644
+--- a/dist/ChevronUp.astro
++++ b/dist/ChevronUp.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Circle.astro b/dist/Circle.astro
+index 01b5b8ea3634dc9de465f08725cfcc4a76b78ea1..9fe8fc35b079c57505ead647fec8710c76e9c26e 100644
+--- a/dist/Circle.astro
++++ b/dist/Circle.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CircleBackslash.astro b/dist/CircleBackslash.astro
+index d3e905863327d25baaa3cd239b82723f646febb5..1a1b90085667cf6c9c717b4ceb622ead05b4ed47 100644
+--- a/dist/CircleBackslash.astro
++++ b/dist/CircleBackslash.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Clipboard.astro b/dist/Clipboard.astro
+index fc14e20141c29b94a5474cd8ebbde0e5f3de1416..8733ea8464b776e9db1cb6388a10f23e4d05ba25 100644
+--- a/dist/Clipboard.astro
++++ b/dist/Clipboard.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ClipboardCopy.astro b/dist/ClipboardCopy.astro
+index a4ee1d570e747554bb1d1511fc9e2d35e8b3e259..97d270a68c90247ef57f05d21e8964035fa9af1f 100644
+--- a/dist/ClipboardCopy.astro
++++ b/dist/ClipboardCopy.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Clock.astro b/dist/Clock.astro
+index 48a8eebcf8a9c8bc35f07bdf7a9c262977274470..fcec6c7893308ccc6d0b46de88112d7a3bf944a6 100644
+--- a/dist/Clock.astro
++++ b/dist/Clock.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Code.astro b/dist/Code.astro
+index 7a0a36362e994af1cd396ade3d2a1bcc6ada7560..c557d4497328bef9ccf9b9918cae408dd7f63d34 100644
+--- a/dist/Code.astro
++++ b/dist/Code.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CodeSandboxLogo.astro b/dist/CodeSandboxLogo.astro
+index d4a907c5d693021ebb81aca57278d4e2a0377ede..54a59bbdae5d997e3795befd698dd807f497d951 100644
+--- a/dist/CodeSandboxLogo.astro
++++ b/dist/CodeSandboxLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ColumnSpacing.astro b/dist/ColumnSpacing.astro
+index c35c238463b1b7b24c5a4deb77f8a7190bb00537..8ddeae690bb02a52545a275aa6b953ef6c40a930 100644
+--- a/dist/ColumnSpacing.astro
++++ b/dist/ColumnSpacing.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Columns.astro b/dist/Columns.astro
+index 5a7adf08304189c0d6c668b44d7bcf833b4dd0dc..913088703864f6dee12012de8706d23321826fe0 100644
+--- a/dist/Columns.astro
++++ b/dist/Columns.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Commit.astro b/dist/Commit.astro
+index dcb153974abe6c6a4074aec0a3b99adb955b97d9..c6821cafae95fe6fa9311872e5332dd4b1399ea1 100644
+--- a/dist/Commit.astro
++++ b/dist/Commit.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Component1.astro b/dist/Component1.astro
+index 2dbe214294ae822164b38217a995bed6d61e34e1..bfb96288c0aa6d31838b735342da2bd0c5fbf388 100644
+--- a/dist/Component1.astro
++++ b/dist/Component1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Component2.astro b/dist/Component2.astro
+index 8de984a44780d3785719dcb59a211a0257acb14d..b525423fcd91cef2176d81aacd47bf30771baf70 100644
+--- a/dist/Component2.astro
++++ b/dist/Component2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ComponentBoolean.astro b/dist/ComponentBoolean.astro
+index e2e7bb4b97d12140930a56456336c09ca5d74178..f7194b39d7c9b8c8b74a8dc70da8cd2cde2c8173 100644
+--- a/dist/ComponentBoolean.astro
++++ b/dist/ComponentBoolean.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ComponentInstance.astro b/dist/ComponentInstance.astro
+index 0c192b8f7084075db5f7d73b56fd6e191e809985..fe301ded34f27d9f0bad748ed2853b07a08d6a02 100644
+--- a/dist/ComponentInstance.astro
++++ b/dist/ComponentInstance.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ComponentNone.astro b/dist/ComponentNone.astro
+index 5a337abefd1b07609efd6d71afa65daf943469ef..cf18583b2886cee1d3c3c3fda5009516e59cb079 100644
+--- a/dist/ComponentNone.astro
++++ b/dist/ComponentNone.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ComponentPlaceholder.astro b/dist/ComponentPlaceholder.astro
+index a93811beb858b4022cc00c819ba2ab7c90c3b7dd..a11df7c46cd60b0cbd0d0754f2315f892fa52627 100644
+--- a/dist/ComponentPlaceholder.astro
++++ b/dist/ComponentPlaceholder.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Container.astro b/dist/Container.astro
+index b9b4ed244026cd1527fec79b3d68d807534871a7..0360f8147242bb158868704146dd5e0cdebdcce0 100644
+--- a/dist/Container.astro
++++ b/dist/Container.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Cookie.astro b/dist/Cookie.astro
+index b44f008ca9df01b4a372ff907633549f332bd940..a47fa85c12fdfe4f2d86a276bbda8e1ad43ea27f 100644
+--- a/dist/Cookie.astro
++++ b/dist/Cookie.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Copy.astro b/dist/Copy.astro
+index dfea418278961d68919efd8cbc46e418a6d1a8e2..d5972e1af3252c901a061fd391bbc3af2a0411a8 100644
+--- a/dist/Copy.astro
++++ b/dist/Copy.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CornerBottomLeft.astro b/dist/CornerBottomLeft.astro
+index acdb03e2d57aa7b709ea2c1ed2387d2cbd80adc1..b52c26e3803dd37ee60723b487fe2f105d9eec71 100644
+--- a/dist/CornerBottomLeft.astro
++++ b/dist/CornerBottomLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CornerBottomRight.astro b/dist/CornerBottomRight.astro
+index 62d8d01820510f72406ba851c4eec647a9a5ec19..ada2f88289b449011e3f4a2bde62a3fcb57fc092 100644
+--- a/dist/CornerBottomRight.astro
++++ b/dist/CornerBottomRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CornerTopLeft.astro b/dist/CornerTopLeft.astro
+index 00edfc29092a52df24bd5dcac78643ad6bd4c666..d308e5806392db873ce0016604a12bcb9bd06883 100644
+--- a/dist/CornerTopLeft.astro
++++ b/dist/CornerTopLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CornerTopRight.astro b/dist/CornerTopRight.astro
+index 3c08ffce2c955bdee6b5b7a69213ee278fc10aae..0e2a8df1dc5f4f40cd29d70aabc05b1e98c3144b 100644
+--- a/dist/CornerTopRight.astro
++++ b/dist/CornerTopRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Corners.astro b/dist/Corners.astro
+index 3d77aa5fec568a57cd58086cc770d827ae5d9b43..a8edb090ee1824e8fdbffa3caf07499617a61b1a 100644
+--- a/dist/Corners.astro
++++ b/dist/Corners.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CountdownTimer.astro b/dist/CountdownTimer.astro
+index 21f730bf66d864c08e47109405cee575cb84ee09..334681e92d053cf8cd8f16c1b4b537e21d5734f2 100644
+--- a/dist/CountdownTimer.astro
++++ b/dist/CountdownTimer.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CounterClockwiseClock.astro b/dist/CounterClockwiseClock.astro
+index 13c626aa883bc3889e88330bb57391d11efa9473..2f395b27b1420547ee8817a60bfb09abe237c283 100644
+--- a/dist/CounterClockwiseClock.astro
++++ b/dist/CounterClockwiseClock.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Crop.astro b/dist/Crop.astro
+index f315fe0b2530ec1413091efdc6be85b66dd7529d..89391a4a979afbbe152947c3d9d90fe5f2c1458e 100644
+--- a/dist/Crop.astro
++++ b/dist/Crop.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Cross1.astro b/dist/Cross1.astro
+index 1d7117119ca027364e4a45c41e39f62294e8b6b4..d6292b16f5decb3c74772a2e7d361319c8bcff12 100644
+--- a/dist/Cross1.astro
++++ b/dist/Cross1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Cross2.astro b/dist/Cross2.astro
+index 26f9bd6c5cb79f57d25b4cad7140e777efaa1281..faa2053b1323dbd46cef7b6b3e6ea126b5235958 100644
+--- a/dist/Cross2.astro
++++ b/dist/Cross2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CrossCircled.astro b/dist/CrossCircled.astro
+index 613bedb1f5569c78f96ab3cda285bc90180af38f..2c0507852cbb5c3615087aba171fb4c14938c063 100644
+--- a/dist/CrossCircled.astro
++++ b/dist/CrossCircled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Crosshair1.astro b/dist/Crosshair1.astro
+index 6d34b852c6d2d660f687213bf5d4d0b3f0040cbf..43f92d2b262f446f3d719ad544b3d64d01993e6f 100644
+--- a/dist/Crosshair1.astro
++++ b/dist/Crosshair1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Crosshair2.astro b/dist/Crosshair2.astro
+index c1acbb90586aebd7f4223f95ace4a145cf01f57e..4031db6aa5260394619f6782bc70b337484493c4 100644
+--- a/dist/Crosshair2.astro
++++ b/dist/Crosshair2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CrumpledPaper.astro b/dist/CrumpledPaper.astro
+index d645ebdbcd4de48f144011f5c89748728729a175..141dc8be826f505a61d63483a91879990e121dcf 100644
+--- a/dist/CrumpledPaper.astro
++++ b/dist/CrumpledPaper.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Cube.astro b/dist/Cube.astro
+index ec5b7a547f6283377b325d17c8a6e779e58dc6ff..13f9cf2ff0f3e845474aa72a6e5fb0515521deda 100644
+--- a/dist/Cube.astro
++++ b/dist/Cube.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CursorArrow.astro b/dist/CursorArrow.astro
+index 6d698bb8dd7bcf67754cde56dfe74ae8a6d5b53c..3b52dc5f381421137b2cc319650439cbd9b0ceea 100644
+--- a/dist/CursorArrow.astro
++++ b/dist/CursorArrow.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/CursorText.astro b/dist/CursorText.astro
+index d0527301a207e2b1270ad4e3ccd204b62fb1b0a9..963a68ce68162b34e1dda177cf4c012a9e917fed 100644
+--- a/dist/CursorText.astro
++++ b/dist/CursorText.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Dash.astro b/dist/Dash.astro
+index 208e14ed19d339a654f1bf0e73c20982d74cd276..37745ab95ac9918176982167ad8b5d76828c8ab0 100644
+--- a/dist/Dash.astro
++++ b/dist/Dash.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Dashboard.astro b/dist/Dashboard.astro
+index 4b8c6349eea9495d32ecc67eaac095ebd2d8a2f1..2d5a5a1615836906029413dd3348452a688589fa 100644
+--- a/dist/Dashboard.astro
++++ b/dist/Dashboard.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Dimensions.astro b/dist/Dimensions.astro
+index 55cefdd5a5b074e7fdfda819e1e20dd0dee3c468..7fbc7ade9df71639054150466d108be3cc56f4c0 100644
+--- a/dist/Dimensions.astro
++++ b/dist/Dimensions.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Disc.astro b/dist/Disc.astro
+index c156974cf60625a5733537b26eeb624ee976b275..91e5b6f7959fa62325c846aae9002f3da9e14164 100644
+--- a/dist/Disc.astro
++++ b/dist/Disc.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DividerHorizontal.astro b/dist/DividerHorizontal.astro
+index 3ebcfc2e0a3077ee8530e224034fad406ee751d6..da6a7acf0233dcceb70a7e009d718fb9500fc2ce 100644
+--- a/dist/DividerHorizontal.astro
++++ b/dist/DividerHorizontal.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DividerVertical.astro b/dist/DividerVertical.astro
+index 14bfd5b97fe8d0b643b513df822ed427d4f8443a..349c13c62036c05b74f4bc919a290161692d0a91 100644
+--- a/dist/DividerVertical.astro
++++ b/dist/DividerVertical.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Dot.astro b/dist/Dot.astro
+index 91e50bf94eb8c618cdb72703ca4bf2227bc25ee6..77a477fe81abb21263b271dce6bafce9c516b117 100644
+--- a/dist/Dot.astro
++++ b/dist/Dot.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DotFilled.astro b/dist/DotFilled.astro
+index d56957ed35450c1ca6f904274a1d847a0192381d..ac96987fe8e47b5fc15cc277e01bfd79128c6dc6 100644
+--- a/dist/DotFilled.astro
++++ b/dist/DotFilled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DotsHorizontal.astro b/dist/DotsHorizontal.astro
+index 13ca4121e0475ea4a3a47ac0a12900a283843b44..6a8efce2d4930e5b1a04e58961fb098727c5607f 100644
+--- a/dist/DotsHorizontal.astro
++++ b/dist/DotsHorizontal.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DotsVertical.astro b/dist/DotsVertical.astro
+index bf75a423dd95e0ee6ec024a4bc80e5d55bb155b1..2297b717afbd226e53c886d0839e633736a3c453 100644
+--- a/dist/DotsVertical.astro
++++ b/dist/DotsVertical.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DoubleArrowDown.astro b/dist/DoubleArrowDown.astro
+index 820560af5f50cede6811bbb070118ab2fcbe9cad..9cb77d7113d50fba1d799c87019c1f9ee45cef16 100644
+--- a/dist/DoubleArrowDown.astro
++++ b/dist/DoubleArrowDown.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DoubleArrowLeft.astro b/dist/DoubleArrowLeft.astro
+index 7db4929428031134d37b95418e254a576b93fa17..49bb777bc204092a7c6e44b5e0c49041e54b0fd7 100644
+--- a/dist/DoubleArrowLeft.astro
++++ b/dist/DoubleArrowLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DoubleArrowRight.astro b/dist/DoubleArrowRight.astro
+index b9da472db33a2316eb90e4e274956429fbc19aa9..4d7cba5b2c1e010166b6e9ce0f1232c9f392206f 100644
+--- a/dist/DoubleArrowRight.astro
++++ b/dist/DoubleArrowRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DoubleArrowUp.astro b/dist/DoubleArrowUp.astro
+index 501229debcb8c0acf0ab08f8579ba0ad5d3c24ee..27e614b83430448346ff93425d7785d365083053 100644
+--- a/dist/DoubleArrowUp.astro
++++ b/dist/DoubleArrowUp.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Download.astro b/dist/Download.astro
+index 4c86c732df67fad1f31763faf797b61dff51e700..d50729770997b114d63c76ba53a5b6ac9b4c33b9 100644
+--- a/dist/Download.astro
++++ b/dist/Download.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DragHandleDots1.astro b/dist/DragHandleDots1.astro
+index 8f19b700ae781ef058bf16e026c87a38dc06f4ea..0c8019fb5352d18bf4f276131b6084926bc7e678 100644
+--- a/dist/DragHandleDots1.astro
++++ b/dist/DragHandleDots1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DragHandleDots2.astro b/dist/DragHandleDots2.astro
+index 8fcc03118b0c36b6e65a6bef80d7e0b09e2a0c14..c317e9bd3d7013cc80607e8aedb824ee998dfb5f 100644
+--- a/dist/DragHandleDots2.astro
++++ b/dist/DragHandleDots2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DragHandleHorizontal.astro b/dist/DragHandleHorizontal.astro
+index b6139242ad5d4ea81a9a54e89b41505da54a1d51..ef08acae9672991646890412c885c6ce016a9b23 100644
+--- a/dist/DragHandleHorizontal.astro
++++ b/dist/DragHandleHorizontal.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DragHandleVertical.astro b/dist/DragHandleVertical.astro
+index 08ad9a10d2e013f156c412b99e41c5fed880dd4b..6fc3ca17671b13735fc01fd1f3df2629f7e2059e 100644
+--- a/dist/DragHandleVertical.astro
++++ b/dist/DragHandleVertical.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DrawingPin.astro b/dist/DrawingPin.astro
+index b8e5bde0f1d81c98c6210a84baee7905e9ce9d01..4fc022d8f0062a9f3e0f5322182b36b4d97f0ff1 100644
+--- a/dist/DrawingPin.astro
++++ b/dist/DrawingPin.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DrawingPinFilled.astro b/dist/DrawingPinFilled.astro
+index b6886f2a40db4b0a11b92aabe60774bafa239b88..ff4095fa54a912a9f064a6054839eac89aa5ed98 100644
+--- a/dist/DrawingPinFilled.astro
++++ b/dist/DrawingPinFilled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/DropdownMenu.astro b/dist/DropdownMenu.astro
+index ee7da5c6fc0801a4cc7111cc18fa4ef987488221..a1c456012115a5ee5d6d52e657887356e1213479 100644
+--- a/dist/DropdownMenu.astro
++++ b/dist/DropdownMenu.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Enter.astro b/dist/Enter.astro
+index 02fda18e88d46606ce6991bd0f0661cf60b76d89..21dc28b449fe708c4a07ac03c24a3aec24b084e2 100644
+--- a/dist/Enter.astro
++++ b/dist/Enter.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/EnterFullScreen.astro b/dist/EnterFullScreen.astro
+index c1efa126ae2bd432b3ae40ad31b821e626a126a8..36fcdc08ed3b9a3698246e7bef0d8b1677b1e11a 100644
+--- a/dist/EnterFullScreen.astro
++++ b/dist/EnterFullScreen.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/EnvelopeClosed.astro b/dist/EnvelopeClosed.astro
+index 40ad96d04846a7ad54c9698506e79c2c36583b3a..bfb392c5649c0d1d78bb5274ee70f83d712068c6 100644
+--- a/dist/EnvelopeClosed.astro
++++ b/dist/EnvelopeClosed.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/EnvelopeOpen.astro b/dist/EnvelopeOpen.astro
+index 5c09836e883ef71ffc21613632e6b6e55de4090f..f6be3ac017669dc2d6127e082eb4bef5fb3a519e 100644
+--- a/dist/EnvelopeOpen.astro
++++ b/dist/EnvelopeOpen.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ExclamationTriangle.astro b/dist/ExclamationTriangle.astro
+index 38f8fbe576be33d58fb9d1fe9b9ff100e4896853..de715291a419c0022c5b52657b69b16468c1be02 100644
+--- a/dist/ExclamationTriangle.astro
++++ b/dist/ExclamationTriangle.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Exit.astro b/dist/Exit.astro
+index 3db89274ef3161afd7b275a3c07b54c7292aedfe..de7b8dc59394617e37cd67ac1aff9fc96a6c260f 100644
+--- a/dist/Exit.astro
++++ b/dist/Exit.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ExitFullScreen.astro b/dist/ExitFullScreen.astro
+index c5658d2b7ea3468c123849a4d0deebb04be5d4fd..b4026573f20a05d16ba2c25e9845ef532d4a2ab8 100644
+--- a/dist/ExitFullScreen.astro
++++ b/dist/ExitFullScreen.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ExternalLink.astro b/dist/ExternalLink.astro
+index 4d90d8d782540876507b2eb29ea214a5dd8cbba9..ecac64b4bbba367ced5e9873e7f3c311d4c5ccdb 100644
+--- a/dist/ExternalLink.astro
++++ b/dist/ExternalLink.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/EyeClosed.astro b/dist/EyeClosed.astro
+index f73ef71b5b3e5b07edcb59faa1745dd0eaf17279..3776c0b6000288a4a8210113e80c8755e21522c8 100644
+--- a/dist/EyeClosed.astro
++++ b/dist/EyeClosed.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/EyeNone.astro b/dist/EyeNone.astro
+index a5992953c92480548e4f293c395979d79fd71f2e..b0307bde261e6e5d5e4332006e3c75970c47b40e 100644
+--- a/dist/EyeNone.astro
++++ b/dist/EyeNone.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/EyeOpen.astro b/dist/EyeOpen.astro
+index f065925b762c42e25e970828c7a5139dd48313d7..b8d2deb69bdf01d918581776102b3a9254c7f025 100644
+--- a/dist/EyeOpen.astro
++++ b/dist/EyeOpen.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Face.astro b/dist/Face.astro
+index d36d9e1bc4d9a91d117d8181852e16ea3e8c5756..5cf32e5e14ff6c851557d1b8db85bffe97c5fe15 100644
+--- a/dist/Face.astro
++++ b/dist/Face.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FigmaLogo.astro b/dist/FigmaLogo.astro
+index 74435dd381004ec4ec59ed276173f5d35d8fe67b..5e232707dbfba42a8be37fbcbdd56067cab13dc4 100644
+--- a/dist/FigmaLogo.astro
++++ b/dist/FigmaLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/File.astro b/dist/File.astro
+index b015c5d6ffc4135171a2406e5040dcdf6409d69b..6c73c243d7679c21b45c7e72d3f1847481fcac77 100644
+--- a/dist/File.astro
++++ b/dist/File.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FileMinus.astro b/dist/FileMinus.astro
+index 8c1d1e35a429662e404b4bf84e06c0e88afe4413..3c684917115910d3865aa941cf18f71c11b0f925 100644
+--- a/dist/FileMinus.astro
++++ b/dist/FileMinus.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FilePlus.astro b/dist/FilePlus.astro
+index b1ea0fc10a6652d307b139970652130b276a67c5..a8d2eac21403a55ca5fb6994223ae769601bd9e4 100644
+--- a/dist/FilePlus.astro
++++ b/dist/FilePlus.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FileText.astro b/dist/FileText.astro
+index 303e55b61e6eabf34b431a55007767fdf1132c25..73d3d95faa94e1a6a1ad7b5c54384da5512aab22 100644
+--- a/dist/FileText.astro
++++ b/dist/FileText.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FontBold.astro b/dist/FontBold.astro
+index 9136a163a056180478fcaf32838723689aea3c3f..73bf6e3d96220538fc3151d4a0e85ba51a4a068d 100644
+--- a/dist/FontBold.astro
++++ b/dist/FontBold.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FontFamily.astro b/dist/FontFamily.astro
+index 5ff42c4dba5d6979f256ea1b424a8a4f4a58ecd9..f5c705745f8a8cb25e8d58c2c57dafb6ebc4c0fe 100644
+--- a/dist/FontFamily.astro
++++ b/dist/FontFamily.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FontItalic.astro b/dist/FontItalic.astro
+index 3aebb814d97883838fa5c7b3a69dba47a248dca8..40e592a5d92705ae818e40121358a380b9df7a4e 100644
+--- a/dist/FontItalic.astro
++++ b/dist/FontItalic.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FontRoman.astro b/dist/FontRoman.astro
+index 34510190dde2197e18df7ad2dfdfd7997bed18df..737df3427c4878de2dcaeab0eb166d98d5da34a3 100644
+--- a/dist/FontRoman.astro
++++ b/dist/FontRoman.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FontSize.astro b/dist/FontSize.astro
+index 8916ffb039a54c8e0fc72f8fa14e2039de3a2078..df149ffc6a1f4a927b1db88d8c98e49a3f18c06c 100644
+--- a/dist/FontSize.astro
++++ b/dist/FontSize.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FontStyle.astro b/dist/FontStyle.astro
+index 4957ab0394c9e59b35c314dae2d2bef9aab814ce..d42afded31336fad72b1bded8b058d411382a4f2 100644
+--- a/dist/FontStyle.astro
++++ b/dist/FontStyle.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Frame.astro b/dist/Frame.astro
+index 57fead5ff993ca10ecd219f102c164e0d94c6f05..ec8d83ae9902e85d990e96a4ab990b3a1958cd2a 100644
+--- a/dist/Frame.astro
++++ b/dist/Frame.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/FramerLogo.astro b/dist/FramerLogo.astro
+index 4a9a91dd90ec5c5f417d51110cdbc68db2ac70ae..c0ffc2c89d33961e5b0b847ff18602649f42d5a9 100644
+--- a/dist/FramerLogo.astro
++++ b/dist/FramerLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Gear.astro b/dist/Gear.astro
+index 6d79bdadecdce48139032cb53661eb7f5eae723e..0d4af7e46e77d7ddf6edbe450c64860113d742c4 100644
+--- a/dist/Gear.astro
++++ b/dist/Gear.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/GitHubLogo.astro b/dist/GitHubLogo.astro
+index ab1f9943f4268a5dec9ed8b7e2df3ac0ed520e96..1afb764f2935cb64d2fd55042c0b2bfb26ca1e7f 100644
+--- a/dist/GitHubLogo.astro
++++ b/dist/GitHubLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Globe.astro b/dist/Globe.astro
+index 77d59cfef20e878a546b76bfeaeadc9727028c73..0965770845be961e58d23d8f9ff97e681f7e7acd 100644
+--- a/dist/Globe.astro
++++ b/dist/Globe.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Grid.astro b/dist/Grid.astro
+index 360587ca8e337dd70f5e26ffa5687244c1477bc7..29524a467dbacb6318c633e57e5be2e9fbc1ce06 100644
+--- a/dist/Grid.astro
++++ b/dist/Grid.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Group.astro b/dist/Group.astro
+index 6ba174eec7472b68e5f691904f07ef0bd10e7de8..7b7d1f545862424d3d34d76eb9ac1e17bae5e656 100644
+--- a/dist/Group.astro
++++ b/dist/Group.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Half1.astro b/dist/Half1.astro
+index 139efe59fa5b9b4605772ad70c0f8ee238ebf83c..20166f388e58feccb09dcf128b64c0f553163f77 100644
+--- a/dist/Half1.astro
++++ b/dist/Half1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Half2.astro b/dist/Half2.astro
+index 67044653b85577254ff43d38d49f6aeb4d68621a..f7121257e4b58aecbc7052268d5347ffeb060033 100644
+--- a/dist/Half2.astro
++++ b/dist/Half2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/HamburgerMenu.astro b/dist/HamburgerMenu.astro
+index 5449aeb80b71c054116fb0ff1ed24cfcfeba7539..1ee00ea2d0989fb59746a019677ba06c273dd11a 100644
+--- a/dist/HamburgerMenu.astro
++++ b/dist/HamburgerMenu.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Hand.astro b/dist/Hand.astro
+index b1751dca2bba20ba3b84bbaef800e9d761d8bae4..165ca5c9e24f850a0c09de2fa65bb5fb965027bf 100644
+--- a/dist/Hand.astro
++++ b/dist/Hand.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Heading.astro b/dist/Heading.astro
+index 161c83c04ca08945dfd756584494ad028732ee02..59e1344ec0b05b59d6c4552ba1a35b6dee6c45f4 100644
+--- a/dist/Heading.astro
++++ b/dist/Heading.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Height.astro b/dist/Height.astro
+index 716b7c2edb075d58b8747eee6c9dd52b33596de3..8dcf36519dfd0143868b65ca43b1862ac0757e7e 100644
+--- a/dist/Height.astro
++++ b/dist/Height.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Home.astro b/dist/Home.astro
+index 12f5eece028a4be26d345099937735f3b673f730..256f12b1e1b0ddfae0fdee117b54f638ad6ff164 100644
+--- a/dist/Home.astro
++++ b/dist/Home.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/IconJarLogo.astro b/dist/IconJarLogo.astro
+index 38ae3c578a37845b4be7b7b0008c591ac6042e96..82469a0a689a4d67944b76d966d797bdac92457b 100644
+--- a/dist/IconJarLogo.astro
++++ b/dist/IconJarLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/IdCard.astro b/dist/IdCard.astro
+index 16e15219d7a9fe6569b1a24ce71e2f08125c8063..e03bea5fba97f41132eab73094496e7697e1efad 100644
+--- a/dist/IdCard.astro
++++ b/dist/IdCard.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Image.astro b/dist/Image.astro
+index f086a5e033c11c5ed3df268db60f6c711f02998e..ffc2d4e743b5d4baef59043cbbb232847f7bd08c 100644
+--- a/dist/Image.astro
++++ b/dist/Image.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/InfoCircled.astro b/dist/InfoCircled.astro
+index eeea6de3ed512449c895d45aa22d9c56d833d6e3..ce93f871d7b9e3f86c8cf7ff66e3d2a098b2a0bb 100644
+--- a/dist/InfoCircled.astro
++++ b/dist/InfoCircled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Input.astro b/dist/Input.astro
+index b4e8dd5f75357725b2a6003851de28055a9b40ee..4811080c8162d32052cad2c01a23c6f867a1530b 100644
+--- a/dist/Input.astro
++++ b/dist/Input.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LapTimer.astro b/dist/LapTimer.astro
+index 3561ca134e100fb954b1b7d43350e03ec0fef989..eba51ac02e374d181a983e716e6d828620dc5920 100644
+--- a/dist/LapTimer.astro
++++ b/dist/LapTimer.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Layers.astro b/dist/Layers.astro
+index 54211a9f41f430f642b466b8cf1051a83e7f99de..ae6f32448f8ae9fb3715c363e41a5d433d54c303 100644
+--- a/dist/Layers.astro
++++ b/dist/Layers.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Layout.astro b/dist/Layout.astro
+index d37f9e4878341d9ca252095784f9ee27e4a67301..df3a96416d57a9f7709a3b47f7181886e856bf06 100644
+--- a/dist/Layout.astro
++++ b/dist/Layout.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LetterCaseCapitalize.astro b/dist/LetterCaseCapitalize.astro
+index 4b3c2796cf81d402200c65dd38f69f7796e7e72e..0815ed8811a45d1d35fe8a22d90f6a3951c73957 100644
+--- a/dist/LetterCaseCapitalize.astro
++++ b/dist/LetterCaseCapitalize.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LetterCaseLowercase.astro b/dist/LetterCaseLowercase.astro
+index 4f92c5f3af6269b6b069c2efad7da237fd79edca..b818d0e9082568a50338604f421a0b2897a624bc 100644
+--- a/dist/LetterCaseLowercase.astro
++++ b/dist/LetterCaseLowercase.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LetterCaseToggle.astro b/dist/LetterCaseToggle.astro
+index 5dc01b2005763a127b7b177ca7b3d305d1639dd1..5725a09fc01af70a2d9ed25a9933350b3ea432e6 100644
+--- a/dist/LetterCaseToggle.astro
++++ b/dist/LetterCaseToggle.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LetterCaseUppercase.astro b/dist/LetterCaseUppercase.astro
+index 1ae15d6bb5a3b86a02f814a0bacdcd0b96b883d6..83d2482f34a10e2df2ddff2b5af1f11c2793008f 100644
+--- a/dist/LetterCaseUppercase.astro
++++ b/dist/LetterCaseUppercase.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LetterSpacing.astro b/dist/LetterSpacing.astro
+index 24eeae6a0850272e451c2fc06f4691416979e783..d2c47be57ed3ab3ea5b621f0e0053389fb469308 100644
+--- a/dist/LetterSpacing.astro
++++ b/dist/LetterSpacing.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LightningBolt.astro b/dist/LightningBolt.astro
+index 042945e51de1b4994106a8cfb90bf272f4402f8f..85a859c4b9933c8a505431e9dd91636d79891001 100644
+--- a/dist/LightningBolt.astro
++++ b/dist/LightningBolt.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LineHeight.astro b/dist/LineHeight.astro
+index eeff3435d0e407e323eef25cdc6ae9815c72c25d..6621bb04860d6ca571aae52cc26db92d9abcb198 100644
+--- a/dist/LineHeight.astro
++++ b/dist/LineHeight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Link1.astro b/dist/Link1.astro
+index 50c59c9c52e1030124ce7d6d0796a502b2208796..d599ad1615bd2992b79d18c8114ecd9d0acfa414 100644
+--- a/dist/Link1.astro
++++ b/dist/Link1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Link2.astro b/dist/Link2.astro
+index cdfadce6676f033c21469df06421fd84966eb378..a3195c6fbc36dfacd3f1bb9ed82edfba9600cf1d 100644
+--- a/dist/Link2.astro
++++ b/dist/Link2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LinkBreak1.astro b/dist/LinkBreak1.astro
+index bb1be818ee26feffe91186686fcfa27e347a4501..6f5f852a790f9c256a2289b0eff2b3c37ad04b50 100644
+--- a/dist/LinkBreak1.astro
++++ b/dist/LinkBreak1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LinkBreak2.astro b/dist/LinkBreak2.astro
+index 8eeba91e60adb4a103e6f87aa91054af68e9d4e7..37865e9545c986a4c51faff8d955b00850276ae9 100644
+--- a/dist/LinkBreak2.astro
++++ b/dist/LinkBreak2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LinkNone1.astro b/dist/LinkNone1.astro
+index 227e6e1933a7c735db8b4a3a23517622d9899a09..7f3fdaa9ed6d28f5c0f2534588daa0ae4218fe45 100644
+--- a/dist/LinkNone1.astro
++++ b/dist/LinkNone1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LinkNone2.astro b/dist/LinkNone2.astro
+index 3e0956a03d7c8829dccd8f1535eb42632ec2ca1e..dfe61855ba731056fe3bd523c1a4736f5277a0fd 100644
+--- a/dist/LinkNone2.astro
++++ b/dist/LinkNone2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ListBullet.astro b/dist/ListBullet.astro
+index 38cc8b5b355115b8ff40f62727b65af70e0d1966..f4ba3ace49ad392507eba6641ee02caafb8530c6 100644
+--- a/dist/ListBullet.astro
++++ b/dist/ListBullet.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LockClosed.astro b/dist/LockClosed.astro
+index 23ab59fda7a9b41fb52db38febc273e1e6669266..edc67ed8918ea9206209b94e896e31368a363989 100644
+--- a/dist/LockClosed.astro
++++ b/dist/LockClosed.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LockOpen1.astro b/dist/LockOpen1.astro
+index 81046966dc583c4bfcafac087a133c9db2b41e39..a3340e8e2695fe2a2fadbe048d24e1c97f007d0c 100644
+--- a/dist/LockOpen1.astro
++++ b/dist/LockOpen1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/LockOpen2.astro b/dist/LockOpen2.astro
+index f0d216e419e784847bafc64d756227544c839b51..6bf5a397e4dbb5a4cb904526f20df9909e20b1dd 100644
+--- a/dist/LockOpen2.astro
++++ b/dist/LockOpen2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Loop.astro b/dist/Loop.astro
+index 18d1ebdd0e942097df89a876dae53b933d25069a..c11467a8dad9d79ca7b8b660283ddfa18b41d481 100644
+--- a/dist/Loop.astro
++++ b/dist/Loop.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/MagicWand.astro b/dist/MagicWand.astro
+index 54498c6788c3092db8cbc4cee7ea52bd7da47938..45f76dfdc062575e00b8cfd727a08964361cf7f2 100644
+--- a/dist/MagicWand.astro
++++ b/dist/MagicWand.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/MagnifyingGlass.astro b/dist/MagnifyingGlass.astro
+index 4e3937b421695d8c853cc231a0557dd3ecdf651c..2395c639b015c630be07e8f564ca4ce07ace44ef 100644
+--- a/dist/MagnifyingGlass.astro
++++ b/dist/MagnifyingGlass.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Margin.astro b/dist/Margin.astro
+index 33f5aeb7e33e6b90ace793d5ddd32012169680b2..1bbc315cb2fb133ea7c5bbf12ed9003344d85ed4 100644
+--- a/dist/Margin.astro
++++ b/dist/Margin.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/MaskOff.astro b/dist/MaskOff.astro
+index c6f85a3adf1d02937f79979511e3644948210c62..ae49b17978d99129e527780e199303b66f24e021 100644
+--- a/dist/MaskOff.astro
++++ b/dist/MaskOff.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/MaskOn.astro b/dist/MaskOn.astro
+index ca8cdbf3e716f56b63981b24ce2e316a4f03753b..3cda2793a67102e0f99e8d98bc6fe6c6bd28bb89 100644
+--- a/dist/MaskOn.astro
++++ b/dist/MaskOn.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Minus.astro b/dist/Minus.astro
+index b7e6cbae8207fb477b2eb5f97dca69ce49913d10..4d78eacf9833f329a2b1dc1205ca8980c86dea67 100644
+--- a/dist/Minus.astro
++++ b/dist/Minus.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/MinusCircled.astro b/dist/MinusCircled.astro
+index 1e4312ed66d1269fe08e52473def980a62a3260f..73b6c29ccfb6cf31af4b16db0fbcabaa7a374f9b 100644
+--- a/dist/MinusCircled.astro
++++ b/dist/MinusCircled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Mix.astro b/dist/Mix.astro
+index 09f3bf3de172872cc7490bb97d97c51b6713a95a..73530bea6f5c21c19aba7ec3ce565148a9ce397c 100644
+--- a/dist/Mix.astro
++++ b/dist/Mix.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/MixerHorizontal.astro b/dist/MixerHorizontal.astro
+index 31dbe97ecd4a433732115fb9ad5300ef4c1f9e3e..d2c39940f19e5b73628aacbb94add2d593396e9b 100644
+--- a/dist/MixerHorizontal.astro
++++ b/dist/MixerHorizontal.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/MixerVertical.astro b/dist/MixerVertical.astro
+index a4700954a0f641a298c964e161cc7a36d5d7b6c8..4aa9d5b0e58db0c8ce433ff26588100715798812 100644
+--- a/dist/MixerVertical.astro
++++ b/dist/MixerVertical.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ModulzLogo.astro b/dist/ModulzLogo.astro
+index 096fd048b4eda037bf89a7e728a735c17bfa5207..531a7a90750b8c19d940c8ac94b31e9d781de4a0 100644
+--- a/dist/ModulzLogo.astro
++++ b/dist/ModulzLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Moon.astro b/dist/Moon.astro
+index 5d2c3ac19d7b116ee2deb8c2a1970df020b88f32..3985b108d48d04a44697440e80abd7246c1342f1 100644
+--- a/dist/Moon.astro
++++ b/dist/Moon.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Move.astro b/dist/Move.astro
+index 7942705bdc2fff11db41e1754d17bd6917ab9c64..287f8c45dc353b2742f9ed1517cc8dae9bac65ba 100644
+--- a/dist/Move.astro
++++ b/dist/Move.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/NotionLogo.astro b/dist/NotionLogo.astro
+index 75e9adbf7e96bea909b7257d67aa863abd2731af..15fd37caf935d389eb243c24c46e1d487cb9a990 100644
+--- a/dist/NotionLogo.astro
++++ b/dist/NotionLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Opacity.astro b/dist/Opacity.astro
+index 610f554505e475af5abd3a8865a34c7cb50f6ea6..6daea7e8430f63c992d0bf1f8dae63768067e697 100644
+--- a/dist/Opacity.astro
++++ b/dist/Opacity.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Overline.astro b/dist/Overline.astro
+index faa3335934a44ecde61c0ab46fa9caf43e1cc69f..7f871e4952b42dd2673933e53101ce88b10159a9 100644
+--- a/dist/Overline.astro
++++ b/dist/Overline.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Padding.astro b/dist/Padding.astro
+index cb26239807d5e5e0ba399ca40fd067064ca6a375..408a721dbed732a69b996ba6e217b41349c4810b 100644
+--- a/dist/Padding.astro
++++ b/dist/Padding.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/PaperPlane.astro b/dist/PaperPlane.astro
+index 1556d86e8dff1e3cc6f6da540f4c0be17d4ff39e..045842576a7363233308f80f9efec3f090cced3c 100644
+--- a/dist/PaperPlane.astro
++++ b/dist/PaperPlane.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Pause.astro b/dist/Pause.astro
+index 535544166a2b40691a305e860239d412e3d9d2f2..6cce9a3e6c21f05254ec5967e3b0d649a685a53c 100644
+--- a/dist/Pause.astro
++++ b/dist/Pause.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Pencil1.astro b/dist/Pencil1.astro
+index a775d6cda83ac77109e6a7d9a5f1994435293746..333e15843c0300e589f6831365ff07ff2c0ec525 100644
+--- a/dist/Pencil1.astro
++++ b/dist/Pencil1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Pencil2.astro b/dist/Pencil2.astro
+index 7ec35bdb5e108361f658e3da8b4227f2bd3de2e1..d977d2c011b02fd486c177fd37f5469ce6b88e14 100644
+--- a/dist/Pencil2.astro
++++ b/dist/Pencil2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Person.astro b/dist/Person.astro
+index e10a6c984f8a294ab365b12c02ceaa4cf86e1d47..864062153f00dc5b7e38bfd2320dbfccafec064f 100644
+--- a/dist/Person.astro
++++ b/dist/Person.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/PieChart.astro b/dist/PieChart.astro
+index 2fae92f353aca169e2cd57716d694123a7336353..b641acc900d8f03640e2d5af73f7f14bb1891b5e 100644
+--- a/dist/PieChart.astro
++++ b/dist/PieChart.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Pilcrow.astro b/dist/Pilcrow.astro
+index 36dc5c0c51b2f4fbd0554e16cf66f671ed991c98..1ec25c32823700da3df859e4a2f581f12098bdd3 100644
+--- a/dist/Pilcrow.astro
++++ b/dist/Pilcrow.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/PinBottom.astro b/dist/PinBottom.astro
+index 3eb3021eb5b86a7947e46874f50a78da8e267186..f712ef2ab448c9cc3d630a4925fbd8b54be26f69 100644
+--- a/dist/PinBottom.astro
++++ b/dist/PinBottom.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/PinLeft.astro b/dist/PinLeft.astro
+index bc7c7ae463b3140c4b50cd6dc54485bb7a64193a..881275e57c510a0255639ac604ce0f854a99a27e 100644
+--- a/dist/PinLeft.astro
++++ b/dist/PinLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/PinRight.astro b/dist/PinRight.astro
+index 3c6b834c9a80eb85e5d22e799e727a3d98ef1d4e..0f22e1bfb7242b5a468894903552d6a481c65ba4 100644
+--- a/dist/PinRight.astro
++++ b/dist/PinRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/PinTop.astro b/dist/PinTop.astro
+index 72763fbddd241ca225dc943eefb9ab4cdf7d1c7c..5f48624116310a289db136464433e37ba5a7f71a 100644
+--- a/dist/PinTop.astro
++++ b/dist/PinTop.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Play.astro b/dist/Play.astro
+index 75ad0824c088f0a3c8b6bded6c48106294a22ba9..1a20070d8e457e0ef3086b87fbffcfae3f420e77 100644
+--- a/dist/Play.astro
++++ b/dist/Play.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Plus.astro b/dist/Plus.astro
+index e62c612b91f35e79da4858a9388959188d5a5c57..498c6c0b3d604c751fe5de794f1622e3a52e996b 100644
+--- a/dist/Plus.astro
++++ b/dist/Plus.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/PlusCircled.astro b/dist/PlusCircled.astro
+index de9ad4e113a601ca758fe2ae665b224b247782c6..93eadf28acaa5a6c8139340b358c81abf1292050 100644
+--- a/dist/PlusCircled.astro
++++ b/dist/PlusCircled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/QuestionMark.astro b/dist/QuestionMark.astro
+index 560e7874a36130218459cb4b867e957c79b63dab..18e28c24f581170fc2b3536f03f6f8aaf1761d80 100644
+--- a/dist/QuestionMark.astro
++++ b/dist/QuestionMark.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/QuestionMarkCircled.astro b/dist/QuestionMarkCircled.astro
+index 80a9815fe56f988d7415f6905aa6cc7465f12d32..d07996e6b4e6c649811b7785ad84a0aa35fc2bce 100644
+--- a/dist/QuestionMarkCircled.astro
++++ b/dist/QuestionMarkCircled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Quote.astro b/dist/Quote.astro
+index 974bb35cfcf18a73dadac565e77db27bc420c92b..ed6295d066572b8ac12f970b2a10d9a51f10c1e9 100644
+--- a/dist/Quote.astro
++++ b/dist/Quote.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Radiobutton.astro b/dist/Radiobutton.astro
+index 77fa675e9efd723baf83c4c46e93c472b6919be6..2e3579f4b9c17932361cdfaf4d639e95dc960542 100644
+--- a/dist/Radiobutton.astro
++++ b/dist/Radiobutton.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Reader.astro b/dist/Reader.astro
+index 581a00193f39de2d6cb8c8fdc24f6fd4f0ae57d2..a345e07128ed55b858e607bd13865b3c7b758122 100644
+--- a/dist/Reader.astro
++++ b/dist/Reader.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Reload.astro b/dist/Reload.astro
+index 610c2c2a096e3c5d392c4955e0428281996b8347..f5125d16f6e1946090bc18018095bc32df057fa6 100644
+--- a/dist/Reload.astro
++++ b/dist/Reload.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Reset.astro b/dist/Reset.astro
+index c2c3b57f643e23e20240026874c589736be13188..499dd66fdbdc33c1e3c36a0c241ba13802c78765 100644
+--- a/dist/Reset.astro
++++ b/dist/Reset.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Resume.astro b/dist/Resume.astro
+index 71c61876d210a0737bc15f2fdc3a3723d864b87d..67974423a66049c5750b0fec1ef5090f9af82ae2 100644
+--- a/dist/Resume.astro
++++ b/dist/Resume.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Rocket.astro b/dist/Rocket.astro
+index 8215863eeaee7a38bc7c4e53279cfefe3526b874..7fbb8d0c1bc22d6777fb383f4a9ff7af03511add 100644
+--- a/dist/Rocket.astro
++++ b/dist/Rocket.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/RotateCounterClockwise.astro b/dist/RotateCounterClockwise.astro
+index 957d6a4de6b49483a8b3d6d988b8031fcc396913..f2e17dbb788ada4ccd700289696e9904c088f81e 100644
+--- a/dist/RotateCounterClockwise.astro
++++ b/dist/RotateCounterClockwise.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/RowSpacing.astro b/dist/RowSpacing.astro
+index f25d42b03b9019be7fe57c47650a2366c6964f81..edd21ce2a20cfb8f0d9bfac998ea8ea6af4b689e 100644
+--- a/dist/RowSpacing.astro
++++ b/dist/RowSpacing.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Rows.astro b/dist/Rows.astro
+index 58bc701cfbebfeba94c4b3cf0bcba5fe44e52cb3..30b3e17017c1731279cce6b14463f598253a54fa 100644
+--- a/dist/Rows.astro
++++ b/dist/Rows.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/RulerHorizontal.astro b/dist/RulerHorizontal.astro
+index 2ced5a71ed411c1d3d1aae40a58ea338df9933b6..0cdff723b7d277c8cadd5e27ac3484929524e0a8 100644
+--- a/dist/RulerHorizontal.astro
++++ b/dist/RulerHorizontal.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/RulerSquare.astro b/dist/RulerSquare.astro
+index 5d786ee36c9c74c521da476f76b17927451c4b06..ec2f00a2536ff6187d8967025c5adc7fe473ea78 100644
+--- a/dist/RulerSquare.astro
++++ b/dist/RulerSquare.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Section.astro b/dist/Section.astro
+index 1bf9afcf303b2b3b92cbe497610293cc8be38dbc..ab648f6d59a2a95b4800243fd975cfeb1233cfce 100644
+--- a/dist/Section.astro
++++ b/dist/Section.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SewingPin.astro b/dist/SewingPin.astro
+index 6139929213c2c483a54810eceb7c455024158462..e7fc30b07680fa5b2959cf73be2bd9608b0b0f64 100644
+--- a/dist/SewingPin.astro
++++ b/dist/SewingPin.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SewingPinFilled.astro b/dist/SewingPinFilled.astro
+index 533526d65c9338fed7275353481ed76e3e98d940..4faa52d283e6ae8e8bb6a90b46a7545fb3908f50 100644
+--- a/dist/SewingPinFilled.astro
++++ b/dist/SewingPinFilled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Shadow.astro b/dist/Shadow.astro
+index d7d522932c54d5ec3aee00c9a27a7e3cf3a11322..fa2ba7bb067744a45a8d5280854bf23a3e7cdc43 100644
+--- a/dist/Shadow.astro
++++ b/dist/Shadow.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ShadowInner.astro b/dist/ShadowInner.astro
+index 955a3f2187930c6a534ed854d01b92f9b9a5aaa0..81b1aed1cd878cd1d0d4a3ab8a3876e81d2531aa 100644
+--- a/dist/ShadowInner.astro
++++ b/dist/ShadowInner.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ShadowNone.astro b/dist/ShadowNone.astro
+index 1c73d80e91b8a88126af7ca962c402a51023d221..deb842c3dcacc3ccc3db50ec302c1ffc9d09cffc 100644
+--- a/dist/ShadowNone.astro
++++ b/dist/ShadowNone.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ShadowOuter.astro b/dist/ShadowOuter.astro
+index 3fc190ea2032686e9baf0e8c799e7a92f4ce385d..fee441ec9dd6307fef05619f04198022656a1170 100644
+--- a/dist/ShadowOuter.astro
++++ b/dist/ShadowOuter.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Share1.astro b/dist/Share1.astro
+index 7292e1fd5bdfcaf8db3eee1fef05e07299a22c1e..0acfc40968eb8eb3d9f177a05bddd53eb9996443 100644
+--- a/dist/Share1.astro
++++ b/dist/Share1.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Share2.astro b/dist/Share2.astro
+index 6633c6d9e438447752dd534983081b1005b2bad1..bf81a5550f5f3f391a9101d5d5e7125481901076 100644
+--- a/dist/Share2.astro
++++ b/dist/Share2.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Shuffle.astro b/dist/Shuffle.astro
+index 29478fc22e423f32b8d1c882abf7287f6ecd6a7b..f40c2e78acb65ed32919afffb85d9caf8b933279 100644
+--- a/dist/Shuffle.astro
++++ b/dist/Shuffle.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Size.astro b/dist/Size.astro
+index 5f1038451cc439b8e6e111b3902d1cbc2c163a0d..cf3a8dbb3df1bf69ea3bc96728431c40f7115c1d 100644
+--- a/dist/Size.astro
++++ b/dist/Size.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SketchLogo.astro b/dist/SketchLogo.astro
+index 0d38e16c1608fe5dc8d5e64a1fb092c4ffb4fc46..95df626818286f924e7cb0054a79fbb450ca306f 100644
+--- a/dist/SketchLogo.astro
++++ b/dist/SketchLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Slash.astro b/dist/Slash.astro
+index 338f6b042239e94d82386111848cd657ccf8a774..ece120301c8fefbdd95b1882095ac9decf41de76 100644
+--- a/dist/Slash.astro
++++ b/dist/Slash.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Slider.astro b/dist/Slider.astro
+index ff2541c11378ce8cb50ac637c7b99ddef4222d5a..077a7b9c3d9c5a609384a32a76b6769286d22b31 100644
+--- a/dist/Slider.astro
++++ b/dist/Slider.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpaceBetweenHorizontally.astro b/dist/SpaceBetweenHorizontally.astro
+index 6620a38ddfb435a0fa959c1413d8d9f7f0e424ed..3c652b47458ca93dd1808c8b2f3cb4e5e1d77e94 100644
+--- a/dist/SpaceBetweenHorizontally.astro
++++ b/dist/SpaceBetweenHorizontally.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpaceBetweenVertically.astro b/dist/SpaceBetweenVertically.astro
+index ca21e263d6152cda842ee4c8f7e307da2827e796..8fe4aedc331cdf7c38cf205891f6e14bb5a95e92 100644
+--- a/dist/SpaceBetweenVertically.astro
++++ b/dist/SpaceBetweenVertically.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpaceEvenlyHorizontally.astro b/dist/SpaceEvenlyHorizontally.astro
+index e05c228207361563b2638cd8d6f243673b3f7ce6..f3faf70883b7239be2009656de9cef931924e280 100644
+--- a/dist/SpaceEvenlyHorizontally.astro
++++ b/dist/SpaceEvenlyHorizontally.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpaceEvenlyVertically.astro b/dist/SpaceEvenlyVertically.astro
+index c66959a3836fd50c5955dd1c33c6abcf8e004bcc..4934c7b8dd2df1e976403f091583610b30fad533 100644
+--- a/dist/SpaceEvenlyVertically.astro
++++ b/dist/SpaceEvenlyVertically.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpeakerLoud.astro b/dist/SpeakerLoud.astro
+index 600d6fd4ef6e9568d2a1522058db4b2a76eeea97..5100d2e416d5d81754dcbc719415b8f7f97d4da0 100644
+--- a/dist/SpeakerLoud.astro
++++ b/dist/SpeakerLoud.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpeakerModerate.astro b/dist/SpeakerModerate.astro
+index ba753ff0df899d28e57d746b344b22f093e64c92..d752d0687dffe12c56f122651d380be2e80d710c 100644
+--- a/dist/SpeakerModerate.astro
++++ b/dist/SpeakerModerate.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpeakerOff.astro b/dist/SpeakerOff.astro
+index 023fda06478115a41d320fcbef1f263ee9e6038a..5ea6b3a461bbaf2ce189f7384556563699a64c54 100644
+--- a/dist/SpeakerOff.astro
++++ b/dist/SpeakerOff.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/SpeakerQuiet.astro b/dist/SpeakerQuiet.astro
+index b12b4f940879498b29e7d620461c094f5fc9e127..311b1461b64dd99b20eb27cba6aec286bbd48659 100644
+--- a/dist/SpeakerQuiet.astro
++++ b/dist/SpeakerQuiet.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Square.astro b/dist/Square.astro
+index 879a4556410fb3c055987788abc14b2942c3a4e5..3f717681d87cd0ac86966cc68bf397bf2932be8a 100644
+--- a/dist/Square.astro
++++ b/dist/Square.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Stack.astro b/dist/Stack.astro
+index 53035bdd133041fa820e45f04601f631ee952b9b..f14695c0c42af696e902a9285f6de57aecd5470e 100644
+--- a/dist/Stack.astro
++++ b/dist/Stack.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Star.astro b/dist/Star.astro
+index bfbc69689642fea165ec1ae9d4fc1797eb713b0a..fae87cc2264a3fd76d1acdf8552ffa30d71063c0 100644
+--- a/dist/Star.astro
++++ b/dist/Star.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/StarFilled.astro b/dist/StarFilled.astro
+index 29b35cfa78ec45e1db9179dd0f2a24cdc3fc689b..f6f8bd48fbcdb158682fa142913d7f0d5d9e7aef 100644
+--- a/dist/StarFilled.astro
++++ b/dist/StarFilled.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/StitchesLogo.astro b/dist/StitchesLogo.astro
+index 18a4af5b6fa46067658071759614561a03de830e..8be9dd3235d5ace5481ab9ec781ffb5445ab5bde 100644
+--- a/dist/StitchesLogo.astro
++++ b/dist/StitchesLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Stop.astro b/dist/Stop.astro
+index ddd814c6095e1af006c8a44343e5fcd2ae1668b3..14e1cbae1e68806438ddd14ae598eee36b0f7697 100644
+--- a/dist/Stop.astro
++++ b/dist/Stop.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Stopwatch.astro b/dist/Stopwatch.astro
+index 3d25081dddff83a6ff278e2b8a751a7e538290a3..6cd2c26cf930768463f6e99b33ddc1b72a957c0b 100644
+--- a/dist/Stopwatch.astro
++++ b/dist/Stopwatch.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/StretchHorizontally.astro b/dist/StretchHorizontally.astro
+index 15de361c3189421ed9d9c1eb4ca83cbd9709b256..fc05d3b6dd93af282788bbab2f45a37b8040e785 100644
+--- a/dist/StretchHorizontally.astro
++++ b/dist/StretchHorizontally.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/StretchVertically.astro b/dist/StretchVertically.astro
+index 48c764c4a65708f03bd11a950661964af6e88227..c2a15dd39e01e4690421c9f11ad502ae9dee1dd4 100644
+--- a/dist/StretchVertically.astro
++++ b/dist/StretchVertically.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Strikethrough.astro b/dist/Strikethrough.astro
+index c49c05811977b3144f737744bbb147a6550e8bb7..10f528457acfb28161386e25c046c3cb81e962f1 100644
+--- a/dist/Strikethrough.astro
++++ b/dist/Strikethrough.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Sun.astro b/dist/Sun.astro
+index df04e54d5e765621acaed61dde812311f1d11d90..230f40b7f7962e5bb3ae736a4cf3bdd9aa4bf2b3 100644
+--- a/dist/Sun.astro
++++ b/dist/Sun.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Switch.astro b/dist/Switch.astro
+index 1abcd3e0806578c849aa8f7b6526a2d0defa1b38..71d73707222b0edcecc711f791c1c1a742a564ec 100644
+--- a/dist/Switch.astro
++++ b/dist/Switch.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Symbol.astro b/dist/Symbol.astro
+index b9a26732aafaec760930865a3c4900140b81cb5c..884728f17dee535eed11c6fd835b955e43e0e11f 100644
+--- a/dist/Symbol.astro
++++ b/dist/Symbol.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Table.astro b/dist/Table.astro
+index d3f85822ee51dac2bb70c25e7fda03a6e2e32cd7..7b1f7a59672becc53e0171a081a0f59794a9799a 100644
+--- a/dist/Table.astro
++++ b/dist/Table.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Target.astro b/dist/Target.astro
+index 059068d9f67d7bd8c5fe38b936e917952ba4e48b..1cf55befd7b62edec128865bce87065ba165eef4 100644
+--- a/dist/Target.astro
++++ b/dist/Target.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Text.astro b/dist/Text.astro
+index 925e62d4531c02ea3ec4eed1dc624ed3e80a5df0..ebfb3192602246877fb1792f39c1d0b35190c7c0 100644
+--- a/dist/Text.astro
++++ b/dist/Text.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TextAlignCenter.astro b/dist/TextAlignCenter.astro
+index 0460751f7b987988621eba0d402a0c7beefa153a..9b395e6398e7c2f618e4d1544e83231ba003cb78 100644
+--- a/dist/TextAlignCenter.astro
++++ b/dist/TextAlignCenter.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TextAlignJustify.astro b/dist/TextAlignJustify.astro
+index f2e55932de45595dc646b72b524e5c7143b2d1a5..12610598550c1758d81a9fab26fce230f9b0be14 100644
+--- a/dist/TextAlignJustify.astro
++++ b/dist/TextAlignJustify.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TextAlignLeft.astro b/dist/TextAlignLeft.astro
+index 8070e3f22f6d056587e53c77ea688f29fc747b4f..adc78f42e505ca11e5d7b4989459917258643090 100644
+--- a/dist/TextAlignLeft.astro
++++ b/dist/TextAlignLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TextAlignRight.astro b/dist/TextAlignRight.astro
+index ba400513cf771c6a7dc8869cea33bf26f2d92d89..99f96e0a2389bcd71604f018e7c3cff39ba2f316 100644
+--- a/dist/TextAlignRight.astro
++++ b/dist/TextAlignRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TextNone.astro b/dist/TextNone.astro
+index 2e5817ed5be8089bf317e750b1425c7da773f516..94e6dee2fedbbda47638c1412e86ac618550c48b 100644
+--- a/dist/TextNone.astro
++++ b/dist/TextNone.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ThickArrowDown.astro b/dist/ThickArrowDown.astro
+index a0cb53a8faf0c99143e2a1d5e6550d0d3493d8e1..0b94f87d112af8db9ae07cc720f75eb487c4f087 100644
+--- a/dist/ThickArrowDown.astro
++++ b/dist/ThickArrowDown.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ThickArrowLeft.astro b/dist/ThickArrowLeft.astro
+index db66c03d810d0c2521eb99547bb10af995a451a3..46791dce87fd7c5fd59052505ccd34e4efd7f5b5 100644
+--- a/dist/ThickArrowLeft.astro
++++ b/dist/ThickArrowLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ThickArrowRight.astro b/dist/ThickArrowRight.astro
+index e12be9d65896d0f22c9272c4acc5cf7efe1aec8c..a0ade201e9c2c989a2d9fcecbe280d1799598c0c 100644
+--- a/dist/ThickArrowRight.astro
++++ b/dist/ThickArrowRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ThickArrowUp.astro b/dist/ThickArrowUp.astro
+index 846a41b3b998dea17dd59da42cee52b50b765583..5a02aed6a57b9ca152ae57bc7ff3a0a65118d47d 100644
+--- a/dist/ThickArrowUp.astro
++++ b/dist/ThickArrowUp.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Timer.astro b/dist/Timer.astro
+index d34b86f5fb9ee68d5291cfb1e0e65c2776474942..be8c66536e0c4f12e182af58750ab26fa908a6da 100644
+--- a/dist/Timer.astro
++++ b/dist/Timer.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Tokens.astro b/dist/Tokens.astro
+index 8188cfb2f877759a6a21a970ea38d5d5a3b609e3..221adf0e68b01f58b2555924ad910284d0769a15 100644
+--- a/dist/Tokens.astro
++++ b/dist/Tokens.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TrackNext.astro b/dist/TrackNext.astro
+index 9ee8d69daafdb5dc30dfc687b959d0d1ff505192..4253feced334913256719f5dc9064e6fe027827d 100644
+--- a/dist/TrackNext.astro
++++ b/dist/TrackNext.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TrackPrevious.astro b/dist/TrackPrevious.astro
+index 8ee937f4bc913c5167e379c3121ebadf6744f8ac..c939e567193fd7c93f1b26c7220cc8f68db4c7aa 100644
+--- a/dist/TrackPrevious.astro
++++ b/dist/TrackPrevious.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TransparencyGrid.astro b/dist/TransparencyGrid.astro
+index ff1178767a5602a2d1b397293127d048b9a726c6..d32ee90d233158c6c63383ec46d01e06e1837def 100644
+--- a/dist/TransparencyGrid.astro
++++ b/dist/TransparencyGrid.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Trash.astro b/dist/Trash.astro
+index d420c465a7ebf2c72bf5d8f0ba77ad9684f1d9b4..cf5b18a3c068dc639927628a887554cb9a215289 100644
+--- a/dist/Trash.astro
++++ b/dist/Trash.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TriangleDown.astro b/dist/TriangleDown.astro
+index 244c67a0375d0adf3274289279c6d7a029b6b65b..5c060708ef161372d13d64befb822b27489b3d6c 100644
+--- a/dist/TriangleDown.astro
++++ b/dist/TriangleDown.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TriangleLeft.astro b/dist/TriangleLeft.astro
+index fa497b7610991a3835a2ca31e99ea0306d759635..2711e50e08183ff6e19a6804ee74033a93f3ed3d 100644
+--- a/dist/TriangleLeft.astro
++++ b/dist/TriangleLeft.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TriangleRight.astro b/dist/TriangleRight.astro
+index fc84027d9c2002f98c2b66d4b967267721ca0f18..86c2e3b923dc40e0351d5c3cee313155ce8e9e41 100644
+--- a/dist/TriangleRight.astro
++++ b/dist/TriangleRight.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TriangleUp.astro b/dist/TriangleUp.astro
+index a4648a534098272ea65092293df4f5b97efcbeeb..4263ffa8e7b4e3d2c7ba3e9214daed711eda912b 100644
+--- a/dist/TriangleUp.astro
++++ b/dist/TriangleUp.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/TwitterLogo.astro b/dist/TwitterLogo.astro
+index 95472c77fd1fac5cac4a9663a4bbc21618812756..92a0baa5d5b432c20ed610b543f6875b8df86a2b 100644
+--- a/dist/TwitterLogo.astro
++++ b/dist/TwitterLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Underline.astro b/dist/Underline.astro
+index 416ff1e7ab69957a38eff512c22eb263f75ceb93..09d4a7cae707646c0f2535491e73a49b5e3caf0f 100644
+--- a/dist/Underline.astro
++++ b/dist/Underline.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Update.astro b/dist/Update.astro
+index d480fa04bf6d6a8ab57819da7762035c950ce5ff..0be31cb0913072c007657fd3506398ae72eb4f2e 100644
+--- a/dist/Update.astro
++++ b/dist/Update.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Upload.astro b/dist/Upload.astro
+index 3c8e0d5ba30e56b4dc29a9b7392a994d1ec13aa7..36f30cf2cc519550c24e1fa8c5421a35052d1afd 100644
+--- a/dist/Upload.astro
++++ b/dist/Upload.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Value.astro b/dist/Value.astro
+index 3b76e8c5bfe3037bdd992ef7ea4122c9c6d4ac69..f03b739f2a0bf7916fdae4e9d66fc6d3dba6dc79 100644
+--- a/dist/Value.astro
++++ b/dist/Value.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ValueNone.astro b/dist/ValueNone.astro
+index f63dd7dedd5e7258d4b967cb66a21c7f75f29bc3..ee1fbebc6228ab7adea3ece423448e89d4331edd 100644
+--- a/dist/ValueNone.astro
++++ b/dist/ValueNone.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/VercelLogo.astro b/dist/VercelLogo.astro
+index 6881c6c63acb9302c7e25c1ce24e34b2a8a73128..c57136fe6c8be94d0b8026eae3fe2793a25daf5b 100644
+--- a/dist/VercelLogo.astro
++++ b/dist/VercelLogo.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Video.astro b/dist/Video.astro
+index fd42faef41e8e50134240a8103323d6b83dc8cdb..40e1c7719ff221bf769376b04be3d0514bead84e 100644
+--- a/dist/Video.astro
++++ b/dist/Video.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ViewGrid.astro b/dist/ViewGrid.astro
+index 22e8333f9953fd5ebd522e9343818e8f7a070ada..21351345ab16c4372415b63ca74e715bf7b93c95 100644
+--- a/dist/ViewGrid.astro
++++ b/dist/ViewGrid.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ViewHorizontal.astro b/dist/ViewHorizontal.astro
+index c6c96adde06a3e997c3d031fc1d42164a6553c46..2425beedb4f3464c484735c3dee36d2a3c5ccdf1 100644
+--- a/dist/ViewHorizontal.astro
++++ b/dist/ViewHorizontal.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ViewNone.astro b/dist/ViewNone.astro
+index 9420b75dee88f68898ba179be11706598496f8ec..0b7f38b06fd571d83a7529069dd30b6a13ac23ae 100644
+--- a/dist/ViewNone.astro
++++ b/dist/ViewNone.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ViewVertical.astro b/dist/ViewVertical.astro
+index 501ff12a72a1a47f33ee93f6ff9faa0713d80cfb..39c505eb73cca50c948e11f91d0273fe634f6910 100644
+--- a/dist/ViewVertical.astro
++++ b/dist/ViewVertical.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/Width.astro b/dist/Width.astro
+index 988158c8ecbbe646acb6b7f7056dea263830f3ce..068813c6bd3c92c11276d1ed4ec5812e72e53884 100644
+--- a/dist/Width.astro
++++ b/dist/Width.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ZoomIn.astro b/dist/ZoomIn.astro
+index 30971490c08796f1059fa0b858acfd872c17bd68..e7f961d92becef787f6748652110e14a8ce0b0ec 100644
+--- a/dist/ZoomIn.astro
++++ b/dist/ZoomIn.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
+diff --git a/dist/ZoomOut.astro b/dist/ZoomOut.astro
+index 050c05c9f3614b137d27839c966a975228b3e2bf..f36dce5a4b5670328806b8b91b96c1711ba0cb0e 100644
+--- a/dist/ZoomOut.astro
++++ b/dist/ZoomOut.astro
+@@ -1,7 +1,7 @@
+ ---
+ /*! radix-icons | MIT License | https://icons.modulz.app/ */
+ 
+-export { Props } from './Props.ts';
++export type { Props } from './Props.ts';
+ 
+ let {
+ 	size,
