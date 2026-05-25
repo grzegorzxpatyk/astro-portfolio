@@ -5,6 +5,7 @@ import Section from '../components/resume/Section.astro';
 import Technologies from '../components/resume/Technologies.astro';
 import RODOClause from '../components/RODOClause.astro';
 import Layout from '../layouts/Layout.astro';
+import resume from '../data/resume.json';
 ---
 
 <Layout title='Resume'>
@@ -18,73 +19,27 @@ import Layout from '../layouts/Layout.astro';
                 class='min-h-screen h-full print:min-h-full md:border-r print:border-r border-zinc-800 dark:border-zinc-400 py-6 md:pr-12 print:pr-8 print:col-span-2 print:md:col-span-2 relative'
             >
                 <Bio
-                    name='Grzegorz Patyk'
-                    jobTitle='Frontend Developer'
-                    picDescription='Portrait of Grzegorz Patyk'
+                    name={resume.bio.name}
+                    jobTitle={resume.bio.jobTitle}
+                    picDescription={resume.bio.picDescription}
                 />
                 <Contact
-                    email='grzegorzxpatyk@gmail.com'
-                    phone='+48 662 444 438'
-                    website='https://gpatyk.dev'
-                    location='Cracow, PL'
-                    githubName='grzegorzxpatyk'
-                    githubURL='https://github.com/grzegorzxpatyk'
-                    linkedInName='Grzegorz Patyk'
-                    linkedInURL='https://www.linkedin.com/in/grzegorz-patyk/'
+                    email={resume.contact.email}
+                    phone={resume.contact.phone}
+                    website={resume.contact.website}
+                    location={resume.contact.location}
+                    githubName={resume.contact.githubName}
+                    githubURL={resume.contact.githubURL}
+                    linkedInName={resume.contact.linkedInName}
+                    linkedInURL={resume.contact.linkedInURL}
                 />
                 <Section
                     title='Education'
                     type='list'
                     isLast
-                    listItems={[
-                        {
-                            title: 'Architecture, MSc',
-                            organisation: 'Cracow UOT',
-                            timePeriod: '2019 - 2020',
-                        },
-                        {
-                            title: 'Architecture, BSc',
-                            organisation: 'Lublin UOT',
-                            timePeriod: '2015 - 2019',
-                        },
-                    ]}
+                    listItems={resume.education}
                 />
-                <Technologies
-                    technologies={[
-                        'TypeScript',
-                        'JavaScript',
-                        'React.js',
-                        'Next.js',
-                        'tailwindcss',
-                        'styled-components',
-                        'radix-ui',
-                        'shadcn/ui',
-                        'Material UI',
-                        'framer-motion',
-                        'Redux',
-                        'Jest',
-                        'React Testing Library',
-                        'Playwright',
-                        'Cypress',
-                        'HTML',
-                        'CSS',
-                        'REST API',
-                        'GraphQL',
-                        'TanStack Query',
-                        'SWR',
-                        'SQL',
-                        'PostgreSQL',
-                        'kysely',
-                        'git',
-                        'GitHub',
-                        'GitHub Actions',
-                        'GitLab',
-                        'Vercel',
-                        'Microsoft Azure',
-                        'Jira',
-                        'CI/CD'
-                    ]}
-                />
+                <Technologies technologies={resume.technologies} />
                 <RODOClause className='absolute bottom-5' />
             </div>
             <div
@@ -93,59 +48,12 @@ import Layout from '../layouts/Layout.astro';
                 <Section
                     title='Bio'
                     type='description'
-                    description='Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. Divergent thinker, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create aesthetic designs and implement captivating animations that elevate user experience to a new level.'
+                    description={resume.bioDescription}
                 />
                 <Section
                     title='Experience'
                     type='list'
-                    listItems={[
-                        {
-                            title: 'Frontend developer',
-                            organisation: 'Freelance',
-                            timePeriod: 'Sept 2024 - present',
-                            organisationWebsite: 'https://gpatyk.dev',
-                            description:
-                                'Designed and developed a privacy-focused appointment booking application, allowing small business owners to retain full control over client data while seamlessly integrating into existing websites. Led the project from inception to deployment, ensuring scalability, security, and a smooth user experience. ',
-                            keyTechnologies: [
-                                'Next.js – Built a modern, responsive web application with server-side rendering.',
-                                'Auth.js – Implemented secure user authentication and session management.',
-                                'PostgreSQL + Kysely ORM – Structured, efficient database management.',
-                                'Tailwind CSS – Created a clean and accessible UI with a mobile-first approach.'
-                            ],
-                        },
-                        {
-                            title: 'Frontend developer',
-                            organisation: 'Bank of Montreal',
-                            timePeriod: 'Jun 2024 - Sept 2024',
-                            organisationWebsite: 'https://bmo.com/',
-                            description:
-                                'Developed high-performance, accessible web pages and applications using Next.js, React, TypeScript, Jest, and styled-components, ensuring scalability and maintainability. Integrated Contentful as a headless CMS, enabling dynamic content management and improving editorial workflow. Actively participated in code reviews, contributing to best practices, performance optimizations, and overall code quality. Engaged in architectural discussions, helping shape the direction of the application and implementing scalable solutions. Estimated task complexity and effort to improve sprint planning and delivery efficiency in an Agile environment. Collaborated closely with UX/UI designers, translating Figma designs into pixel-perfect, responsive components while ensuring cross-browser compatibility and adherence to accessibility standards (WCAG).',
-                        },
-                        {
-                            title: 'Junior Frontend developer',
-                            organisation: 'Transition Technologies MS',
-                            timePeriod: 'Jun 2022 - Mar 2024',
-                            organisationWebsite: 'https://ttms.pl/',
-                            description:
-                                'Developed user-centric, accessible web applications using React, Redux Toolkit, Material UI, and Tailwind CSS, improving user engagement and satisfaction. Built scalable, maintainable applications with TypeScript, ensuring type safety and reducing runtime errors. Designed and executed E2E tests with Cypress to enhance application reliability and streamline the QA process. Actively collaborated with clients, gathering requirements, discussing business logic, and proposing optimal technical solutions. Worked in an Agile environment, participating in sprint planning, code reviews, and cross-functional team discussions to drive continuous improvement.',
-                        },
-                        {
-                            title: 'Junior Frontend developer',
-                            organisation: 'Alten Polska',
-                            timePeriod: 'Jan 2022 - May 2022',
-                            organisationWebsite: 'https://alten.pl/',
-                            description:
-                                'Developed and maintained internal applications using JavaScript, SaSS, PHP, and SQL, ensuring responsive and scalable solutions. Implemented client-side form validation with JavaScript and regular expressions to enhance data integrity. Tested and debugged RESTful APIs using Swagger and Postman, collaborating with backend developers to optimize performance and reliability.',
-                        },
-                        {
-                            title: 'Web development intern',
-                            organisation: 'beeanco',
-                            timePeriod: 'Jun 2021 - Dec 2021',
-                            organisationWebsite: 'https://beeanco.com/',
-                            description:
-                                'Collaborated with cross-functional teams, including designers and backend developers, to build responsive, accessible, and high-performance web interfaces using TypeScript, React, and Tailwind CSS. Developed and maintained a headless CMS architecture with WordPress and GraphQL, working at the intersection of frontend and backend. Integrated animations and interactive elements to enhance user experience, optimize engagement, and elevate website aesthetics.',
-                        },
-                    ]}
+                    listItems={resume.experience}
                     isLast
                 />
             </div>
