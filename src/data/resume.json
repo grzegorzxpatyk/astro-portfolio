@@ -63,6 +63,13 @@
     "bioDescription": "Dedicated and innovative Frontend Developer with a unique blend of skills derived from a background in architecture and passion for programming. Divergent thinker, infusing creativity and functionality into every project. My favorite aspect of web application development lies in crafting beautiful user interfaces, where I relish the opportunity to create aesthetic designs and implement captivating animations that elevate user experience to a new level.",
     "experience": [
         {
+            "title": "Software Engineer",
+            "organisation": "GPC Global Technology Center",
+            "timePeriod": "March 2025 - present",
+            "organisationWebsite": "https://www.linkedin.com/company/gpc-global-technology-center",
+            "description": "Led critical refactoring efforts within a TypeScript-based React Micro-Frontend (MFE) architecture managed by Nx Monorepo, significantly enhancing component modularity and maintainability through advanced decomposition strategies and the implementation of dedicated React Query-based API mutation hooks. Engineered and integrated comprehensive Jest and React Testing Library unit and integration tests, achieving robust code coverage and ensuring functional stability across complex application features. Delivered impactful frontend UI/UX enhancements utilizing Tailwind CSS, including responsive design, dynamic state management, advanced focus control, and internationalization support to optimize user engagement. Strengthened system resilience by implementing sophisticated event cooldown mechanisms and streamlining GitHub Actions-driven CI/CD pipelines for continuous and efficient application deployment. Consistently collaborated with cross-functional teams to deliver high-performance, scalable, and user-centric technical solutions, driving improvements in overall application efficiency and user satisfaction. Additionally contributed to the backend repository by adding and updating OpenAPI specifications, enhancing API documentation and integration capabilities. Developed and maintained a comprehensive design system, implementing reusable UI components and ensuring consistency through Storybook integration and robust tooling."
+        },
+        {
             "title": "Frontend developer",
             "organisation": "Freelance",
             "timePeriod": "Sept 2024 - present",
