@@ -1,7 +1,7 @@
 {
     "bio": {
         "name": "Grzegorz Patyk",
-        "jobTitle": "Frontend Developer",
+        "jobTitle": "Frontend Engineer",
         "picDescription": "Portrait of Grzegorz Patyk"
     },
     "contact": {
@@ -65,29 +65,23 @@
         {
             "title": "Software Engineer",
             "organisation": "GPC Global Technology Center",
-            "timePeriod": "March 2025 - present",
+            "timePeriod": "Mar 2025 - present",
             "organisationWebsite": "https://www.linkedin.com/company/gpc-global-technology-center",
-            "description": "Led critical refactoring efforts within a TypeScript-based React Micro-Frontend (MFE) architecture managed by Nx Monorepo, significantly enhancing component modularity and maintainability through advanced decomposition strategies and the implementation of dedicated React Query-based API mutation hooks. Engineered and integrated comprehensive Jest and React Testing Library unit and integration tests, achieving robust code coverage and ensuring functional stability across complex application features. Delivered impactful frontend UI/UX enhancements utilizing Tailwind CSS, including responsive design, dynamic state management, advanced focus control, and internationalization support to optimize user engagement. Strengthened system resilience by implementing sophisticated event cooldown mechanisms and streamlining GitHub Actions-driven CI/CD pipelines for continuous and efficient application deployment. Consistently collaborated with cross-functional teams to deliver high-performance, scalable, and user-centric technical solutions, driving improvements in overall application efficiency and user satisfaction. Additionally contributed to the backend repository by adding and updating OpenAPI specifications, enhancing API documentation and integration capabilities. Developed and maintained a comprehensive design system, implementing reusable UI components and ensuring consistency through Storybook integration and robust tooling."
+            "description": "Built and enhanced a dashboard application UI within a TypeScript/React Micro-Frontend architecture managed by an Nx Monorepo, improving component modularity via advanced decomposition and React Query mutation hooks. Built Jest + React Testing Library unit/integration test suites ensuring high code coverage and functional stability. Delivered UI/UX improvements using Tailwind CSS: responsive design, dynamic state management, focus control, and i18n. Implemented event cooldown mechanisms and optimized GitHub Actions CI/CD pipelines. Contributed to backend OpenAPI specifications, improving API documentation and integration. Developed and maintained a design system with reusable components, Storybook integration, and consistent tooling. Collaborated cross-functionally to deliver scalable, high-performance, user-centric solutions."
         },
         {
             "title": "Frontend developer",
             "organisation": "Freelance",
-            "timePeriod": "Sept 2024 - present",
+            "timePeriod": "Sept 2024 - Mar 2025",
             "organisationWebsite": "https://gpatyk.dev",
-            "description": "Designed and developed a privacy-focused appointment booking application, allowing small business owners to retain full control over client data while seamlessly integrating into existing websites. Led the project from inception to deployment, ensuring scalability, security, and a smooth user experience. ",
-            "keyTechnologies": [
-                "Next.js – Built a modern, responsive web application with server-side rendering.",
-                "Auth.js – Implemented secure user authentication and session management.",
-                "PostgreSQL + Kysely ORM – Structured, efficient database management.",
-                "Tailwind CSS – Created a clean and accessible UI with a mobile-first approach."
-            ]
+            "description": "Designed and developed a privacy-focused appointment booking application, allowing small business owners to retain full control over client data while seamlessly integrating into existing websites. Led the project from inception to deployment, ensuring scalability, security, and a smooth user experience. Built with Next.js for server-side rendering, Auth.js for secure authentication, PostgreSQL with Kysely ORM for efficient data management, and Tailwind CSS for a clean, mobile-first UI."
         },
         {
             "title": "Frontend developer",
             "organisation": "Bank of Montreal",
             "timePeriod": "Jun 2024 - Sept 2024",
             "organisationWebsite": "https://bmo.com/",
-            "description": "Developed high-performance, accessible web pages and applications using Next.js, React, TypeScript, Jest, and styled-components, ensuring scalability and maintainability. Integrated Contentful as a headless CMS, enabling dynamic content management and improving editorial workflow. Actively participated in code reviews, contributing to best practices, performance optimizations, and overall code quality. Engaged in architectural discussions, helping shape the direction of the application and implementing scalable solutions. Estimated task complexity and effort to improve sprint planning and delivery efficiency in an Agile environment. Collaborated closely with UX/UI designers, translating Figma designs into pixel-perfect, responsive components while ensuring cross-browser compatibility and adherence to accessibility standards (WCAG)."
+            "description": "Built high-performance, accessible web pages and applications using Next.js, React, TypeScript, Jest, and styled-components. Integrated Contentful headless CMS for dynamic content management and improved editorial workflow. Translated Figma designs into pixel-perfect, responsive, cross-browser-compatible components adhering to WCAG accessibility standards. Contributed to architectural decisions, code reviews, and performance optimizations. Estimated task complexity to support Agile sprint planning and delivery efficiency. Collaborated with UX/UI designers to ensure design fidelity and consistent user experience."
         },
         {
             "title": "Junior Frontend developer",
