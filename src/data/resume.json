@@ -70,11 +70,11 @@
             "description": "Built and enhanced a dashboard application UI within a TypeScript/React Micro-Frontend architecture managed by an Nx Monorepo, improving component modularity via advanced decomposition and React Query mutation hooks. Built Jest + React Testing Library unit/integration test suites ensuring high code coverage and functional stability. Delivered UI/UX improvements using Tailwind CSS: responsive design, dynamic state management, focus control, and i18n. Implemented event cooldown mechanisms and optimized GitHub Actions CI/CD pipelines. Contributed to backend OpenAPI specifications, improving API documentation and integration. Developed and maintained a design system with reusable components, Storybook integration, and consistent tooling. Collaborated cross-functionally to deliver scalable, high-performance, user-centric solutions."
         },
         {
-            "title": "Frontend developer",
+            "title": "Fullstack Engineer",
             "organisation": "Freelance",
             "timePeriod": "Sept 2024 - Mar 2025",
             "organisationWebsite": "https://gpatyk.dev",
-            "description": "Designed and developed a privacy-focused appointment booking application, allowing small business owners to retain full control over client data while seamlessly integrating into existing websites. Led the project from inception to deployment, ensuring scalability, security, and a smooth user experience. Built with Next.js for server-side rendering, Auth.js for secure authentication, PostgreSQL with Kysely ORM for efficient data management, and Tailwind CSS for a clean, mobile-first UI."
+            "description": "Designed and developed a privacy-focused appointment booking application enabling small business owners to maintain full data sovereignty while embedding seamlessly into existing web infrastructure. Independently led the full software development lifecycle (SDLC) — from requirements gathering and architecture design through deployment and post-launch optimization. Integrated an SMS API to deliver automated appointment reminders and real-time client notifications, improving booking reliability and reducing no-show rates. Implemented secure authentication flows, relational database management, and a responsive mobile-first interface."
         },
         {
             "title": "Frontend developer",
