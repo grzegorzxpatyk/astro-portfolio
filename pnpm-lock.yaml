@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@astropub/icons@0.2.0': f57f367971337f4f46b2132ca41fde391f3e6bbae2821566a57640a1eedc24f2
+
 importers:
 
   .:
@@ -19,7 +22,7 @@ importers:
         version: 6.0.2(astro@5.18.1(jiti@1.21.7)(rollup@4.60.4)(typescript@5.9.3)(yaml@2.9.0))(tailwindcss@3.4.19(yaml@2.9.0))
       '@astropub/icons':
         specifier: ^0.2.0
-        version: 0.2.0(astro@5.18.1(jiti@1.21.7)(rollup@4.60.4)(typescript@5.9.3)(yaml@2.9.0))
+        version: 0.2.0(patch_hash=f57f367971337f4f46b2132ca41fde391f3e6bbae2821566a57640a1eedc24f2)(astro@5.18.1(jiti@1.21.7)(rollup@4.60.4)(typescript@5.9.3)(yaml@2.9.0))
       '@fontsource/geist-sans':
         specifier: ^5.0.3
         version: 5.2.5
@@ -3187,7 +3190,7 @@ snapshots:
     dependencies:
       yaml: 2.9.0
 
-  '@astropub/icons@0.2.0(astro@5.18.1(jiti@1.21.7)(rollup@4.60.4)(typescript@5.9.3)(yaml@2.9.0))':
+  '@astropub/icons@0.2.0(patch_hash=f57f367971337f4f46b2132ca41fde391f3e6bbae2821566a57640a1eedc24f2)(astro@5.18.1(jiti@1.21.7)(rollup@4.60.4)(typescript@5.9.3)(yaml@2.9.0))':
     dependencies:
       astro: 5.18.1(jiti@1.21.7)(rollup@4.60.4)(typescript@5.9.3)(yaml@2.9.0)
 
