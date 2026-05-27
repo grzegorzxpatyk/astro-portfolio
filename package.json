@@ -40,10 +40,5 @@
         "tailwind-scrollbar": "^3.1.0",
         "tailwind-scrollbar-utilities": "^0.2.0",
         "tailwindcss-animation-delay": "^1.2.0"
-    },
-    "pnpm": {
-        "patchedDependencies": {
-            "@astropub/icons@0.2.0": "patches/@astropub__icons@0.2.0.patch"
-        }
     }
 }
