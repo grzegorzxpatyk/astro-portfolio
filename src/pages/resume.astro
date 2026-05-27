@@ -13,10 +13,10 @@ import resume from '../data/resume.json';
         class='min-h-screen h-fit flex flex-col bg-100% m-0 mb-4 bg-fixed bg-no-repeat bg-zinc-100 bg-opacity-70 dark:bg-zinc-900 dark:bg-opacity-90 p-0 print:p-0 print:lg:p-0 print:md:p-0 print:sm:p-0 print:m-0 print:pt-12'
     >
         <div
-            class='print:p-0 text-zinc-950 dark:text-zinc-300 flex flex-col justify-center items-start md:grid md:grid-cols-4 print:grid print:grid-cols-6 print:md:grid-cols-6'
+            class='resume-container print:p-0 text-zinc-950 dark:text-zinc-300 flex flex-col justify-center items-start md:grid md:grid-cols-4 print:grid print:grid-cols-6 print:md:grid-cols-6'
         >
             <div
-                class='min-h-screen h-full print:min-h-full md:border-r print:border-r border-zinc-800 dark:border-zinc-400 py-6 md:pr-12 print:pr-8 print:col-span-2 print:md:col-span-2 relative'
+                class='resume-sidebar min-h-screen h-full print:min-h-full md:border-r print:border-r border-zinc-800 dark:border-zinc-400 py-6 md:pr-12 print:pr-8 print:col-span-2 print:md:col-span-2 relative'
             >
                 <Bio
                     name={resume.bio.name}
@@ -43,7 +43,7 @@ import resume from '../data/resume.json';
                 <RODOClause className='absolute bottom-5' />
             </div>
             <div
-                class='md:col-span-3 print:col-span-4 print:md:col-span-4 md:ml-12 print:ml-8 md:py-6 pr-0'
+                class='resume-main md:col-span-3 print:col-span-4 print:md:col-span-4 md:ml-12 print:ml-8 md:py-6 pr-0'
             >
                 <Section
                     title='Bio'
@@ -60,3 +60,26 @@ import resume from '../data/resume.json';
         </div>
     </div>
 </Layout>
+
+<style>
+    @media print {
+        .resume-container {
+            display: block;
+        }
+        .resume-sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 33.3333%;
+            min-height: 0;
+            height: auto;
+            box-sizing: border-box;
+            padding-left: 1rem;
+        }
+        .resume-main {
+            margin-left: 33.3333%;
+            padding-left: 2rem;
+        }
+    }
+</style>
