@@ -27,43 +27,59 @@
         }
     ],
     "technologies": [
-        "TypeScript",
-        "JavaScript",
-        "React.js",
-        "Next.js",
-        "tailwindcss",
-        "styled-components",
-        "radix-ui",
-        "shadcn/ui",
-        "Material UI",
-        "framer-motion",
-        "Redux",
-        "Jest",
-        "React Testing Library",
-        "Playwright",
-        "Cypress",
-        "HTML",
-        "CSS",
-        "REST API",
-        "GraphQL",
-        "TanStack Query",
-        "SWR",
-        "SQL",
-        "PostgreSQL",
-        "kysely",
-        "git",
-        "GitHub",
-        "GitHub Actions",
-        "GitLab",
-        "Vercel",
-        "Microsoft Azure",
-        "Jira",
-        "CI/CD"
+        {
+            "label": "Languages",
+            "items": ["TypeScript", "JavaScript", "HTML", "CSS", "SQL"]
+        },
+        {
+            "label": "Frameworks",
+            "items": ["React.js", "Next.js", "Redux"]
+        },
+        {
+            "label": "Styling",
+            "items": [
+                "tailwindcss",
+                "styled-components",
+                "radix-ui",
+                "shadcn/ui",
+                "Material UI",
+                "framer-motion"
+            ]
+        },
+        {
+            "label": "Testing",
+            "items": ["Jest", "React Testing Library", "Playwright", "Cypress"]
+        },
+        {
+            "label": "Backend/DB",
+            "items": [
+                "REST API",
+                "GraphQL",
+                "TanStack Query",
+                "SWR",
+                "PostgreSQL",
+                "kysely",
+                "Prisma"
+            ]
+        },
+        {
+            "label": "Tooling/DevOps",
+            "items": [
+                "git",
+                "GitHub",
+                "GitHub Actions",
+                "GitLab",
+                "Vercel",
+                "Microsoft Azure",
+                "Jira",
+                "CI/CD"
+            ]
+        }
     ],
     "bioDescription": "Frontend Engineer with 4+ years of professional experience building scalable, accessible, and high-performance web applications using React, TypeScript, and Next.js. Background in architecture sharpens a strong eye for UI/UX design, component systems, and visual detail. Experienced across the full SDLC — from requirements and system design to deployment and CI/CD optimization. Comfortable in Agile teams, cross-functional collaboration, and owning complex frontend architectures end-to-end. Outside of work, I practice Japanese woodworking and spend my free time hiking with my two dogs - Dżem and Syny.",
     "experience": [
         {
-            "title": "Software Engineer",
+            "title": "Fullstack Software Engineer",
             "organisation": "GPC Global Technology Center",
             "timePeriod": "Mar 2025 - present",
             "organisationWebsite": "https://www.linkedin.com/company/gpc-global-technology-center",
@@ -71,7 +87,7 @@
         },
         {
             "title": "Fullstack Engineer",
-            "organisation": "Freelance",
+            "organisation": "Ashryver Studio - self employed",
             "timePeriod": "Sept 2024 - Mar 2025",
             "organisationWebsite": "https://gpatyk.dev",
             "description": "Designed and developed a privacy-focused appointment booking application enabling small business owners to maintain full data sovereignty while embedding seamlessly into existing web infrastructure. Independently led the full software development lifecycle (SDLC) — from requirements gathering and architecture design through deployment and post-launch optimization. Integrated an SMS API to deliver automated appointment reminders and real-time client notifications, improving booking reliability and reducing no-show rates. Implemented secure authentication flows, relational database management, and a responsive mobile-first interface."
