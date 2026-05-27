@@ -70,7 +70,7 @@ const wrapperClasses = [
                             </div>
                             {item.description && (
                                 <p
-                                    class='text-justify print:text-sm/4'
+                                    class='text-justify print:text-sm print:leading-[1.4] print:hyphens-auto'
                                     set:html={item.description}
                                 />
                             )}
@@ -133,7 +133,7 @@ const wrapperClasses = [
                     </div>
                 ))
             ) : type === 'description' && description ? (
-                <p class='text-justify print:text-base/4'>{description}</p>
+                <p class='text-justify print:text-base print:leading-[1.5] print:hyphens-auto'>{description}</p>
             ) : null}
         </section>
     )
