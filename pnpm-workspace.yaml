@@ -1,0 +1,5 @@
+packages:
+  - '.'
+
+patchedDependencies:
+  '@astropub/icons@0.2.0': patches/@astropub__icons@0.2.0.patch
