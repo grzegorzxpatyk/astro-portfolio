@@ -10,6 +10,12 @@
         "preview": "astro preview",
         "astro": "astro"
     },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "esbuild",
+            "sharp"
+        ]
+    },
     "dependencies": {
         "@astrojs/check": "^0.9.4",
         "@astrojs/react": "^4.2.0",
