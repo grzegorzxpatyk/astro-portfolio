@@ -1,9 +1,9 @@
 packages:
   - '.'
 
-allowBuilds:
-  esbuild: set this to true or false
-  sharp: set this to true or false
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
 
 patchedDependencies:
   '@astropub/icons@0.2.0': patches/@astropub__icons@0.2.0.patch

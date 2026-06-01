@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const plugin = require('tailwindcss/plugin');
 import defaultTheme from 'tailwindcss/defaultTheme';
-import { transform } from 'typescript';
 const { scrollbarGutter } = require('tailwind-scrollbar-utilities');
 
 export default {
