@@ -1,6 +1,13 @@
 packages:
   - '.'
 
+# pnpm 11 renamed onlyBuiltDependencies -> allowBuilds (name: bool map).
+# Keep both keys so pnpm 10 and 11 both allow esbuild/sharp build scripts;
+# each version silently ignores the key it doesn't recognize.
+allowBuilds:
+  esbuild: true
+  sharp: true
+
 onlyBuiltDependencies:
   - esbuild
   - sharp
