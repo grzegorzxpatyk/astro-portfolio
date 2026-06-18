@@ -33,17 +33,28 @@
         },
         {
             "label": "Frameworks",
-            "items": ["React.js", "Next.js", "Redux"]
+            "items": ["React.js", "Next.js", "Redux", "Nx", "Express.js"]
         },
         {
-            "label": "Styling",
+            "label": "Styling/Component libraries",
             "items": [
                 "tailwindcss",
                 "styled-components",
                 "radix-ui",
                 "shadcn/ui",
                 "Material UI",
-                "framer-motion"
+                "framer-motion",
+                "Storybook"
+            ]
+        },
+        {
+            "label": "Libraries",
+            "items": [
+                "zod",
+                "react-hook-form",
+                "React Query",
+                "TanStack Query",
+                "lodash"
             ]
         },
         {
@@ -55,16 +66,15 @@
             "items": [
                 "REST API",
                 "GraphQL",
-                "TanStack Query",
-                "SWR",
                 "PostgreSQL",
                 "kysely",
-                "Prisma"
+                "Prisma ORM"
             ]
         },
         {
             "label": "Tooling/DevOps",
             "items": [
+                "Figma",
                 "git",
                 "GitHub",
                 "GitHub Actions",
