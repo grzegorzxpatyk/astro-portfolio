@@ -1,7 +1,7 @@
 {
     "bio": {
         "name": "Grzegorz Patyk",
-        "jobTitle": "Frontend Engineer",
+        "jobTitle": "Senior Frontend Engineer",
         "picDescription": "Portrait of Grzegorz Patyk"
     },
     "contact": {
@@ -86,12 +86,12 @@
             ]
         }
     ],
-    "bioDescription": "Frontend Engineer with 5 years of professional experience building scalable, accessible, and high-performance web applications using React, TypeScript, and Next.js. Background in architecture sharpens a strong eye for UI/UX design, component systems, and visual detail. Experienced across the full SDLC — from requirements and system design to deployment and CI/CD optimization. Comfortable in Agile teams, cross-functional collaboration, and owning complex frontend architectures end-to-end. Outside of work, I practice Japanese woodworking and spend my free time hiking with my two dogs - Dżem and Syny.",
+    "bioDescription": "Senior Frontend Engineer with 5+ years of professional experience building scalable, accessible, and high-performance web applications using React, TypeScript, and Next.js. Background in architecture sharpens a strong eye for UI/UX design, component systems, and visual detail. Experienced across the full SDLC — from requirements and system design to deployment and CI/CD optimization. Comfortable in Agile teams, cross-functional collaboration, and owning complex frontend architectures end-to-end. Outside of work, I practice Japanese woodworking and spend my free time hiking with my two dogs - Dżem and Syny.",
     "experience": [
         {
             "title": "Fullstack Software Engineer",
             "organisation": "GPC Global Technology Center",
-            "timePeriod": "Mar 2025 - present",
+            "timePeriod": "Mar 2025 - Jun 2026",
             "organisationWebsite": "https://www.linkedin.com/company/gpc-global-technology-center",
             "description": "Led Product and UX/UI planning meetings to align cross-functional teams on priorities, requirements, and design direction. Delivered internal Frontend courses for backend developers, upskilling engineering teams on modern frontend practices. Built and enhanced a dashboard application UI within a TypeScript/React Micro-Frontend architecture managed by an Nx Monorepo, improving component modularity via advanced decomposition and React Query mutation hooks. Built Jest + React Testing Library unit/integration test suites ensuring high code coverage and functional stability. Delivered UI/UX improvements using Tailwind CSS: responsive design, dynamic state management, focus control, and i18n. Implemented event cooldown mechanisms and optimized GitHub Actions CI/CD pipelines. Contributed to backend OpenAPI specifications, improving API documentation and integration. Developed and maintained a design system with reusable components, Storybook integration, and consistent tooling. Drove cross-functional collaboration to deliver scalable, high-performance, user-centric solutions."
         },
@@ -121,7 +121,7 @@
             "organisation": "Alten Polska",
             "timePeriod": "Jan 2022 - May 2022",
             "organisationWebsite": "https://alten.pl/",
-            "description": "Developed and maintained internal applications using JavaScript, SaSS, PHP, and SQL, ensuring responsive and scalable solutions. Implemented client-side form validation with JavaScript and regular expressions to enhance data integrity. Tested and debugged RESTful APIs using Swagger and Postman, collaborating with backend developers to optimize performance and reliability."
+            "description": "Developed and maintained internal HR applications using JavaScript, React, PHP, and SQL, ensuring responsive and scalable solutions. Implemented client-side form validation with zod and regular expressions to enhance data integrity. Tested and debugged RESTful APIs using Swagger and Postman, collaborating with backend developers to optimize performance and reliability."
         },
         {
             "title": "Web development intern",
