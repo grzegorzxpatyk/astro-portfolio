@@ -1,7 +1,7 @@
 {
     "bio": {
         "name": "Grzegorz Patyk",
-        "jobTitle": "Senior Frontend Engineer",
+        "jobTitle": "Senior Fullstack Engineer",
         "picDescription": "Portrait of Grzegorz Patyk"
     },
     "contact": {
@@ -86,7 +86,7 @@
             ]
         }
     ],
-    "bioDescription": "Senior Frontend Engineer with 5+ years of professional experience building scalable, accessible, and high-performance web applications using React, TypeScript, and Next.js. Background in architecture sharpens a strong eye for UI/UX design, component systems, and visual detail. Experienced across the full SDLC — from requirements and system design to deployment and CI/CD optimization. Comfortable in Agile teams, cross-functional collaboration, and owning complex frontend architectures end-to-end. Outside of work, I practice Japanese woodworking and spend my free time hiking with my two dogs - Dżem and Syny.",
+    "bioDescription": "Senior Fullstack Engineer with 5+ years of professional experience building scalable, accessible, and high-performance web applications using React, TypeScript, and Next.js. Background in architecture sharpens a strong eye for UI/UX design, component systems, and visual detail. Experienced across the full SDLC — from requirements and system design to deployment and CI/CD optimization. Comfortable in Agile teams, cross-functional collaboration, and owning complex frontend architectures end-to-end. Outside of work, I practice Japanese woodworking and spend my free time hiking with my two dogs - Dżem and Syny.",
     "experience": [
         {
             "title": "Fullstack Software Engineer",
@@ -129,6 +129,12 @@
             "timePeriod": "Jun 2021 - Dec 2021",
             "organisationWebsite": "https://beeanco.com/",
             "description": "Collaborated with cross-functional teams, including designers and backend developers, to build responsive, accessible, and high-performance web interfaces using TypeScript, React, and Tailwind CSS. Developed and maintained a headless CMS architecture with WordPress and GraphQL, working at the intersection of frontend and backend. Integrated animations and interactive elements to enhance user experience, optimize engagement, and elevate website aesthetics."
+        },
+        {
+            "title": "Architect",
+            "organisation": "K3 Architekci",
+            "timePeriod": "Jul 2019 - Jun 2021",
+            "description": "Created architectural documentation and design concepts using 3D software including SketchUp, AutoCAD, Revit, and Blender, alongside Adobe Photoshop and Illustrator for post-production and presentation. Produced photorealistic renderings and visualizations to communicate design intent to clients and stakeholders. Met with clients both in the office and on-site during construction to align on requirements and resolve design challenges. Took part in multiple architectural competitions as part of the team, contributing to concept development and presentation materials."
         }
     ]
 }
