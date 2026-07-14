@@ -1,7 +1,7 @@
 {
     "bio": {
         "name": "Grzegorz Patyk",
-        "jobTitle": "Senior Fullstack Engineer",
+        "jobTitle": "Senior Frontend Engineer",
         "picDescription": "Portrait of Grzegorz Patyk"
     },
     "contact": {
@@ -54,6 +54,7 @@
                 "react-hook-form",
                 "React Query",
                 "TanStack Query",
+                "SWR",
                 "lodash"
             ]
         },
@@ -86,21 +87,21 @@
             ]
         }
     ],
-    "bioDescription": "Senior Fullstack Engineer with 5+ years of professional experience building scalable, accessible, and high-performance web applications using React, TypeScript, and Next.js. Background in architecture sharpens a strong eye for UI/UX design, component systems, and visual detail. Experienced across the full SDLC — from requirements and system design to deployment and CI/CD optimization. Comfortable in Agile teams, cross-functional collaboration, and owning complex frontend architectures end-to-end. Outside of work, I practice Japanese woodworking and spend my free time hiking with my two dogs - Dżem and Syny.",
+    "bioDescription": "Senior Frontend Engineer with 5+ years of professional experience building scalable, accessible, and high-performance web applications using React, TypeScript, and Next.js. Background in architecture sharpens a strong eye for UI/UX design, component systems, and visual detail. Experienced across the full SDLC — from requirements and system design to deployment and CI/CD optimization. Comfortable in Agile teams, cross-functional collaboration, and owning complex frontend architectures end-to-end. Outside of work, I practice Japanese woodworking and spend my free time hiking with my two dogs - Dżem and Syny.",
     "experience": [
         {
-            "title": "Fullstack Software Engineer",
+            "title": "Software Engineer",
             "organisation": "GPC Global Technology Center",
             "timePeriod": "Mar 2025 - Jun 2026",
             "organisationWebsite": "https://www.linkedin.com/company/gpc-global-technology-center",
-            "description": "Led Product and UX/UI planning meetings to align cross-functional teams on priorities, requirements, and design direction. Delivered internal Frontend courses for backend developers, upskilling engineering teams on modern frontend practices. Built and enhanced a dashboard application UI within a TypeScript/React Micro-Frontend architecture managed by an Nx Monorepo, improving component modularity via advanced decomposition and React Query mutation hooks. Built Jest + React Testing Library unit/integration test suites ensuring high code coverage and functional stability. Delivered UI/UX improvements using Tailwind CSS: responsive design, dynamic state management, focus control, and i18n. Implemented event cooldown mechanisms and optimized GitHub Actions CI/CD pipelines. Contributed to backend OpenAPI specifications, improving API documentation and integration. Developed and maintained a design system with reusable components, Storybook integration, and consistent tooling. Drove cross-functional collaboration to deliver scalable, high-performance, user-centric solutions."
+            "description": "Led Product and UX/UI planning meetings to align cross-functional teams on priorities, requirements, and design direction. Pioneered AI-native development workflows across the team, working daily with state-of-the-art LLMs — Anthropic's Claude Code (Opus 4.8), OpenAI Codex, and Google Gemini — for multi-file refactoring, feature scaffolding, and component generation. Built and improved agentic workflows by authoring custom agent skills, shell scripting to control token usage and orchestrate AI agents efficiently, and engineering context documentation (CLAUDE.md / rules) for higher-quality, reliable AI output. Delivered internal Frontend courses for backend developers, upskilling engineering teams on modern frontend practices. Built and enhanced a dashboard application UI within a TypeScript/React Micro-Frontend architecture managed by an Nx Monorepo, improving component modularity via advanced decomposition and React Query mutation hooks. Built Jest + React Testing Library unit/integration test suites ensuring high code coverage and functional stability. Delivered UI/UX improvements using Tailwind CSS: responsive design, dynamic state management, focus control, and i18n. Implemented event cooldown mechanisms and optimized GitHub Actions CI/CD pipelines. Contributed to backend OpenAPI specifications, improving API documentation and integration. Developed and maintained a design system with reusable components, Storybook integration, and consistent tooling. Drove cross-functional collaboration to deliver scalable, high-performance, user-centric solutions."
         },
         {
             "title": "Fullstack Engineer",
             "organisation": "Ashryver Studio - self employed",
             "timePeriod": "Sept 2024 - Mar 2025",
             "organisationWebsite": "https://gpatyk.dev",
-            "description": "Designed and developed a privacy-focused appointment booking SaaS application enabling small business owners to maintain full data sovereignty while embedding seamlessly into existing web infrastructure. Independently led the full software development lifecycle (SDLC) — from requirements gathering and architecture design through deployment and post-launch optimization. Integrated an SMS API to deliver automated appointment reminders and real-time client notifications, improving booking reliability and reducing no-show rates. Implemented secure authentication flows, relational database management, and a responsive mobile-first interface."
+            "description": "Designed and developed a privacy-focused appointment booking SaaS application on Next.js (App Router) with React and TypeScript, enabling small business owners to maintain full data sovereignty while embedding seamlessly into existing web infrastructure. Leveraged the full spectrum of Next.js rendering strategies — SSG for marketing pages, ISR for semi-dynamic content, SSR for authenticated and personalized views, and CSR for real-time interactive flows — applying React Server Components and streaming to optimize performance and Core Web Vitals. Independently led the full software development lifecycle (SDLC) — from requirements gathering and architecture design through deployment and post-launch optimization. Integrated an SMS API to deliver automated appointment reminders and real-time client notifications, improving booking reliability and reducing no-show rates. Implemented secure authentication flows, relational database management, and a responsive mobile-first interface."
         },
         {
             "title": "Frontend developer",
